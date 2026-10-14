@@ -1,0 +1,1515 @@
+# total_records=212414453
+n;count;pattern
+3;46;call <- alloca | call <- alloca | call <- alloca
+5;1;getelementptr <- alloca | mul <- sub | sdiv <- mul | add <- sdiv | mul <- add
+4;256;icmp <- add | getelementptr <- alloca | getelementptr <- shl | br <- icmp
+2;160;br <- select | ashr <- add
+1;1341120;sub <- load
+4;2529140;load <- getelementptr | getelementptr <- getelementptr | load <- getelementptr | add <- load
+3;160;ashr <- add | add <- add | add <- add
+2;338046;add <- mul | call <- mul
+5;40;and <- icmp | or <- and | or <- and | icmp <- getelementptr | icmp <- getelementptr
+5;27;br <- select | sub <- mul | mul <- sub | add <- srem | add <- shl
+5;2616320;icmp <- add | br <- icmp | add <- add | add <- shl | getelementptr <- add
+4;40;shl <- sdiv | add <- shl | select <- icmp | select <- icmp
+3;1402080;getelementptr <- alloca | getelementptr <- alloca | getelementptr <- add
+5;511;add <- add | icmp <- add | br <- icmp | br <- icmp | add <- add
+4;36;add <- add | add <- add | mul <- add | mul <- add
+2;5120;shl <- add | trunc <- add
+4;40;ashr <- sub | add <- ashr | add <- add | add <- add
+3;27;mul <- sub | zext <- add | getelementptr <- alloca
+3;512;mul <- add | mul <- add | add <- add
+4;240;add <- add | add <- add | zext <- add | getelementptr <- alloca
+4;40;or <- and | shl <- add | br <- or | or <- add
+4;19;add <- add | icmp <- add | br <- icmp | xor <- xor
+5;108;select <- icmp | select <- icmp | select <- select | select <- icmp | select <- select
+2;320;add <- ashr | store <- add
+3;40;store <- getelementptr | add <- sdiv | icmp <- add
+4;40;add <- add | icmp <- add | br <- icmp | ashr <- add
+4;20;call <- alloca | call <- alloca | call <- add | call <- add
+5;16;select <- icmp | br <- select | add <- add | icmp <- add | br <- icmp
+5;240;add <- add | add <- add | zext <- add | getelementptr <- alloca | getelementptr <- alloca
+3;40;and <- icmp | and <- icmp | or <- and
+5;40;ashr <- sub | add <- ashr | add <- add | add <- add | br <- xor
+3;121920;add <- load | getelementptr <- getelementptr | load <- getelementptr
+5;27;add <- srem | add <- shl | zext <- add | getelementptr <- alloca | getelementptr <- alloca
+5;19;icmp <- add | br <- icmp | xor <- xor | mul <- sub | sdiv <- mul
+3;4;add <- srem | icmp <- add | add <- add
+5;629920;add <- add | icmp <- add | br <- icmp | or <- add | add <- or
+4;640080;getelementptr <- getelementptr | load <- getelementptr | load <- getelementptr | add <- load
+5;120;add <- ashr | store <- add | store <- getelementptr | select <- icmp | select <- icmp
+2;8105580;load <- getelementptr | getelementptr <- getelementptr
+5;640080;add <- load | add <- add | add <- load | ashr <- add | ashr <- add
+2;120;store <- getelementptr | icmp <- add
+5;160;select <- icmp | select <- select | select <- icmp | br <- select | mul <- add
+5;131072;store <- sext | store <- getelementptr | add <- add | icmp <- add | br <- icmp
+4;4;srem <- call | add <- srem | add <- srem | icmp <- add
+5;320;load <- getelementptr | add <- load | add <- ashr | store <- add | store <- getelementptr
+5;60960;ashr <- sub | sub <- sub | sub <- ashr | getelementptr <- alloca | getelementptr <- add
+2;27;mul <- sub | add <- srem
+4;36;icmp <- add | icmp <- add | shl <- add | add <- add
+2;2468180;shl <- call | add <- call
+4;511;icmp <- add | br <- icmp | br <- icmp | add <- add
+3;2468180;call <- select | shl <- call | add <- call
+5;60960;getelementptr <- getelementptr | load <- getelementptr | add <- add | add <- load | ashr <- add
+1;4496496;call <- add
+2;200;and <- icmp | and <- icmp
+4;20;call <- alloca | call <- alloca | call <- alloca | call <- add
+3;4;icmp <- add | icmp <- srem | icmp <- add
+4;40;sub <- ashr | ashr <- sub | add <- ashr | add <- add
+3;80;add <- sdiv | icmp <- add | select <- icmp
+4;2468180;add <- ashr | icmp <- add | call <- add | select <- icmp
+5;155;add <- mul | store <- add | store <- getelementptr | select <- icmp | select <- icmp
+2;701040;add <- shl | getelementptr <- alloca
+5;40;or <- and | shl <- add | br <- or | or <- add | add <- or
+5;40;add <- add | store <- add | store <- getelementptr | select <- icmp | select <- icmp
+3;153260;br <- icmp | trunc <- add | sub <- trunc
+3;4;icmp <- add | add <- add | add <- add
+3;40;store <- add | store <- getelementptr | getelementptr <- alloca
+3;4;br <- icmp | srem <- call | add <- srem
+5;20;call <- add | shl <- add | trunc <- add | sub <- trunc | mul <- sub
+4;120;add <- ashr | store <- add | store <- getelementptr | select <- icmp
+5;169023;store <- select | store <- getelementptr | trunc <- add | call <- trunc | call <- trunc
+5;27;select <- icmp | br <- select | sub <- mul | mul <- sub | zext <- add
+4;130560;trunc <- add | switch <- trunc | add <- add | mul <- add
+5;131072;trunc <- add | icmp <- trunc | or <- icmp | or <- or | add <- add
+2;2468180;select <- call | mul <- select
+5;4936360;load <- getelementptr | getelementptr <- getelementptr | load <- getelementptr | getelementptr <- getelementptr | load <- getelementptr
+2;169023;call <- mul | call <- mul
+3;7465500;getelementptr <- getelementptr | load <- getelementptr | getelementptr <- getelementptr
+5;160;select <- select | select <- icmp | br <- select | ashr <- add | add <- add
+4;629920;icmp <- add | br <- icmp | or <- add | add <- or
+5;200;icmp <- getelementptr | icmp <- getelementptr | icmp <- getelementptr | icmp <- getelementptr | and <- icmp
+1;1341120;store <- and
+5;2468180;mul <- mul | mul <- select | and <- mul | lshr <- mul | call <- lshr
+5;40;icmp <- add | shl <- sdiv | add <- shl | select <- icmp | select <- icmp
+3;169023;call <- select | call <- mul | call <- mul
+3;3840480;getelementptr <- getelementptr | load <- getelementptr | load <- getelementptr
+1;169023;store <- select
+5;320;getelementptr <- alloca | getelementptr <- zext | load <- getelementptr | add <- load | add <- ashr
+4;40;getelementptr <- alloca | icmp <- getelementptr | icmp <- getelementptr | icmp <- getelementptr
+4;1341120;getelementptr <- alloca | getelementptr <- add | getelementptr <- getelementptr | load <- getelementptr
+1;80;shl <- sdiv
+1;1341320;ashr <- add
+1;4936720;add <- ashr
+5;40;shl <- add | select <- icmp | select <- icmp | select <- select | select <- icmp
+2;40;and <- shl | mul <- and
+4;640080;load <- getelementptr | load <- getelementptr | sub <- ashr | sub <- load
+1;2468380;or <- and
+4;2468180;select <- icmp | select <- call | mul <- select | mul <- select
+5;40;icmp <- add | icmp <- add | shl <- sdiv | add <- shl | add <- sdiv
+3;640080;or <- add | add <- or | add <- shl
+4;4;add <- srem | icmp <- add | add <- add | add <- add
+4;20;call <- alloca | call <- add | call <- add | shl <- add
+2;40;shl <- add | select <- icmp
+5;2468180;add <- add | add <- ashr | icmp <- add | call <- add | select <- icmp
+4;4;add <- srem | icmp <- add | icmp <- srem | icmp <- add
+5;640080;add <- add | add <- load | add <- add | add <- load | getelementptr <- getelementptr
+5;40;udiv <- add | shl <- udiv | and <- shl | mul <- and | add <- mul
+2;612;select <- icmp | select <- icmp
+2;40;add <- sdiv | add <- sdiv
+3;40;add <- mul | add <- sdiv | add <- sdiv
+3;40;or <- and | or <- and | icmp <- getelementptr
+5;512;mul <- add | mul <- add | add <- add | mul <- add | mul <- add
+5;131072;or <- icmp | add <- add | mul <- add | mul <- add | add <- mul
+4;36;icmp <- add | shl <- add | add <- add | add <- shl
+2;131072;xor <- or | sext <- xor
+2;169023;store <- select | store <- getelementptr
+4;2468180;mul <- select | mul <- select | mul <- mul | mul <- select
+2;20;and <- call | icmp <- and
+5;640080;getelementptr <- add | getelementptr <- getelementptr | load <- getelementptr | load <- getelementptr | sub <- ashr
+4;20;br <- xor | and <- call | icmp <- and | br <- icmp
+4;40;mul <- add | sdiv <- mul | add <- sdiv | udiv <- add
+3;131072;getelementptr <- add | store <- sext | store <- getelementptr
+3;2468180;mul <- select | and <- mul | lshr <- mul
+3;1280160;add <- load | getelementptr <- getelementptr | getelementptr <- getelementptr
+5;2468180;add <- load | add <- load | add <- load | add <- load | sub <- add
+3;120;and <- icmp | and <- icmp | or <- or
+4;512;br <- icmp | add <- add | mul <- add | mul <- add
+4;4;srem <- call | add <- srem | srem <- call | add <- srem
+2;256;getelementptr <- shl | br <- icmp
+3;361;add <- add | zext <- add | getelementptr <- alloca
+4;640080;sub <- ashr | getelementptr <- alloca | getelementptr <- add | getelementptr <- getelementptr
+4;175;add <- load | add <- mul | store <- add | store <- getelementptr
+5;40;getelementptr <- alloca | getelementptr <- alloca | getelementptr <- alloca | getelementptr <- alloca | icmp <- getelementptr
+5;701040;store <- and | store <- getelementptr | add <- add | icmp <- add | br <- icmp
+5;40;shl <- udiv | and <- shl | mul <- and | add <- mul | add <- sdiv
+4;39;xor <- xor | mul <- sub | sdiv <- mul | add <- sdiv
+5;2621440;trunc <- add | sub <- trunc | mul <- sub | mul <- sub | add <- mul
+2;10160;br <- or | or <- add
+5;640080;ashr <- add | ashr <- add | getelementptr <- alloca | getelementptr <- alloca | getelementptr <- add
+5;60960;load <- getelementptr | add <- load | add <- load | getelementptr <- getelementptr | load <- getelementptr
+5;256;mul <- add | add <- add | mul <- add | mul <- add | shl <- add
+4;511;br <- icmp | br <- icmp | add <- add | mul <- add
+2;315;store <- getelementptr | select <- icmp
+5;169023;add <- mul | call <- add | call <- mul | add <- mul | call <- add
+3;394020;add <- add | mul <- add | mul <- add
+2;5120;mul <- sub | trunc <- add
+2;20;add <- srem | icmp <- add
+4;40;icmp <- getelementptr | and <- icmp | and <- icmp | icmp <- getelementptr
+5;338046;add <- mul | call <- mul | call <- add | call <- add | call <- add
+5;130816;store <- getelementptr | add <- add | icmp <- add | br <- icmp | br <- icmp
+5;1;call <- alloca | call <- alloca | icmp <- add | add <- add | mul <- add
+5;120;icmp <- add | select <- icmp | select <- icmp | select <- select | select <- icmp
+5;2468180;and <- mul | lshr <- mul | call <- lshr | call <- select | shl <- call
+4;61;select <- select | select <- icmp | br <- select | select <- icmp
+5;40;or <- or | or <- and | shl <- add | br <- or | or <- add
+3;511;br <- icmp | br <- icmp | add <- add
+4;60960;load <- getelementptr | add <- add | add <- load | getelementptr <- getelementptr
+5;60960;add <- load | add <- load | getelementptr <- getelementptr | load <- getelementptr | add <- add
+3;2621440;add <- shl | getelementptr <- add | load <- getelementptr
+5;2468180;add <- ashr | load <- getelementptr | ashr <- load | add <- add | add <- ashr
+4;131072;or <- icmp | add <- add | mul <- add | mul <- add
+3;40;store <- getelementptr | getelementptr <- alloca | getelementptr <- alloca
+3;5120;trunc <- add | add <- add | add <- shl
+3;131072;or <- icmp | or <- or | xor <- or
+5;131072;icmp <- trunc | or <- icmp | or <- icmp | add <- add | mul <- add
+3;120;or <- and | icmp <- getelementptr | icmp <- getelementptr
+3;40;shl <- sdiv | add <- shl | add <- sdiv
+5;71396;store <- getelementptr | add <- add | icmp <- add | br <- icmp | add <- add
+3;20;call <- add | shl <- add | trunc <- add
+3;40;icmp <- add | br <- icmp | ashr <- add
+2;40;add <- mul | add <- sdiv
+5;320;getelementptr <- zext | load <- getelementptr | add <- load | add <- ashr | store <- add
+4;56;select <- select | select <- icmp | br <- select | add <- add
+5;640080;add <- load | ashr <- add | ashr <- add | getelementptr <- alloca | getelementptr <- alloca
+5;1;getelementptr <- alloca | getelementptr <- alloca | mul <- sub | sdiv <- mul | add <- sdiv
+5;2468180;add <- load | sub <- add | sub <- add | ashr <- sub | add <- ashr
+3;640080;load <- getelementptr | load <- getelementptr | add <- load
+5;60960;sub <- load | ashr <- sub | sub <- sub | sub <- ashr | getelementptr <- alloca
+4;2621440;add <- mul | add <- mul | icmp <- add | select <- icmp
+3;120;add <- add | add <- shl | zext <- add
+5;16;and <- call | icmp <- and | br <- icmp | call <- alloca | call <- alloca
+4;40;add <- add | store <- add | store <- getelementptr | select <- icmp
+3;256;getelementptr <- alloca | getelementptr <- shl | br <- icmp
+5;27;mul <- sub | zext <- add | getelementptr <- alloca | getelementptr <- alloca | getelementptr <- zext
+3;10120;br <- icmp | shl <- add | br <- or
+5;640080;ashr <- sub | ashr <- sub | sub <- sub | sub <- ashr | sub <- sub
+3;256;icmp <- add | getelementptr <- alloca | getelementptr <- shl
+1;130560;switch <- trunc
+4;169023;call <- trunc | call <- trunc | call <- select | call <- mul
+3;640080;getelementptr <- add | getelementptr <- getelementptr | getelementptr <- getelementptr
+3;40;or <- or | or <- and | shl <- add
+3;144;select <- select | select <- icmp | icmp <- mul
+4;160;select <- icmp | br <- select | ashr <- add | add <- add
+4;15220;add <- add | icmp <- add | br <- icmp | shl <- add
+2;2468180;sub <- add | sub <- add
+3;2621440;icmp <- add | select <- icmp | select <- add
+2;701040;sub <- ashr | getelementptr <- alloca
+3;56;select <- icmp | br <- select | add <- add
+4;320;load <- getelementptr | add <- load | add <- ashr | store <- add
+3;169023;store <- getelementptr | trunc <- add | call <- trunc
+3;2468180;icmp <- add | call <- add | select <- icmp
+4;629920;br <- icmp | or <- add | add <- or | add <- shl
+5;12;br <- select | add <- add | icmp <- add | br <- icmp | add <- add
+5;640080;getelementptr <- getelementptr | load <- getelementptr | load <- getelementptr | sub <- ashr | sub <- load
+3;131072;or <- or | xor <- or | sext <- xor
+4;20;call <- add | shl <- add | trunc <- add | sub <- trunc
+5;640080;ashr <- sub | sub <- sub | sub <- ashr | sub <- sub | sub <- ashr
+3;2621440;getelementptr <- add | load <- getelementptr | icmp <- load
+4;701040;store <- and | store <- getelementptr | add <- add | icmp <- add
+5;2468180;getelementptr <- add | load <- getelementptr | icmp <- load | br <- icmp | getelementptr <- add
+5;60960;getelementptr <- getelementptr | load <- getelementptr | add <- load | add <- load | getelementptr <- getelementptr
+3;2468180;add <- ashr | icmp <- add | call <- add
+5;640080;load <- getelementptr | load <- getelementptr | sub <- ashr | sub <- load | sub <- ashr
+5;640080;and <- sub | and <- load | store <- and | store <- getelementptr | store <- and
+3;121920;getelementptr <- getelementptr | load <- getelementptr | add <- add
+5;640080;sub <- sub | sub <- ashr | sub <- sub | sub <- ashr | getelementptr <- alloca
+3;5120;mul <- sub | mul <- sub | trunc <- add
+2;1341120;and <- sub | and <- load
+5;40;br <- icmp | ashr <- add | sub <- sub | sub <- ashr | ashr <- sub
+4;169023;call <- add | add <- add | icmp <- add | br <- icmp
+2;2626560;sub <- trunc | mul <- sub
+4;1;getelementptr <- alloca | getelementptr <- shl | br <- icmp | add <- add
+3;175;select <- icmp | br <- select | sub <- mul
+5;640080;add <- load | add <- load | getelementptr <- getelementptr | getelementptr <- getelementptr | load <- getelementptr
+1;175;sub <- mul
+2;600;icmp <- getelementptr | icmp <- getelementptr
+4;61;br <- select | select <- icmp | select <- icmp | select <- select
+4;131072;or <- or | add <- add | mul <- add | mul <- add
+1;2468180;mul <- mul
+5;169023;icmp <- select | icmp <- load | br <- icmp | store <- select | store <- getelementptr
+5;160;select <- icmp | select <- select | select <- icmp | br <- select | ashr <- add
+5;169023;trunc <- add | call <- trunc | call <- trunc | call <- select | call <- mul
+5;701040;getelementptr <- alloca | getelementptr <- alloca | getelementptr <- add | getelementptr <- getelementptr | load <- getelementptr
+2;3469124;icmp <- add | br <- icmp
+4;40;store <- getelementptr | icmp <- add | icmp <- add | shl <- add
+2;2468180;add <- call | or <- add
+3;2468180;call <- lshr | call <- select | shl <- call
+3;60960;add <- add | add <- shl | getelementptr <- alloca
+5;5100;icmp <- add | br <- icmp | shl <- add | trunc <- add | sub <- trunc
+5;2468180;sub <- add | sub <- add | ashr <- sub | add <- ashr | load <- getelementptr
+5;155;add <- load | add <- mul | store <- add | store <- getelementptr | select <- icmp
+1;55;add <- srem
+5;32;icmp <- add | br <- icmp | add <- add | add <- add | mul <- add
+1;3324479;trunc <- add
+4;160;ashr <- add | add <- add | add <- add | zext <- add
+3;169023;icmp <- load | br <- icmp | store <- select
+4;2621440;sub <- trunc | mul <- sub | mul <- sub | add <- mul
+5;2468180;mul <- select | and <- mul | lshr <- mul | call <- lshr | call <- select
+1;5091708;select <- icmp
+4;40;select <- icmp | br <- select | add <- add | add <- shl
+3;40;mul <- and | add <- mul | add <- sdiv
+5;338046;call <- add | call <- add | call <- add | call <- add | call <- add
+3;40;and <- shl | mul <- and | add <- mul
+5;10120;br <- icmp | shl <- add | br <- or | or <- add | add <- or
+3;5120;shl <- add | trunc <- add | sub <- trunc
+3;2468180;add <- shl | trunc <- add | sub <- trunc
+3;2468180;lshr <- mul | call <- lshr | call <- select
+4;640080;add <- load | add <- add | add <- load | getelementptr <- getelementptr
+3;20;and <- call | icmp <- and | br <- icmp
+5;640080;add <- or | add <- shl | getelementptr <- alloca | getelementptr <- alloca | getelementptr <- add
+4;2468180;and <- mul | lshr <- mul | call <- lshr | call <- select
+4;60960;sub <- ashr | sub <- load | ashr <- sub | sub <- sub
+5;120;add <- load | add <- ashr | store <- add | store <- getelementptr | icmp <- add
+5;256;mul <- add | add <- add | mul <- add | mul <- add | add <- add
+3;2468180;ashr <- load | add <- add | add <- ashr
+3;701040;add <- add | add <- load | ashr <- add
+5;640080;store <- getelementptr | store <- and | store <- getelementptr | add <- add | icmp <- add
+4;338046;call <- mul | call <- add | call <- add | call <- add
+5;2621440;mul <- sub | add <- mul | add <- mul | icmp <- add | select <- icmp
+3;40;load <- getelementptr | add <- load | add <- add
+4;680;getelementptr <- alloca | getelementptr <- alloca | getelementptr <- alloca | getelementptr <- alloca
+5;2621440;select <- icmp | select <- add | getelementptr <- add | load <- getelementptr | icmp <- select
+3;130560;trunc <- add | switch <- trunc | add <- add
+5;2468180;call <- lshr | call <- select | shl <- call | add <- call | or <- add
+3;40;add <- sdiv | add <- sdiv | icmp <- add
+5;80;mul <- add | ashr <- mul | add <- add | add <- shl | zext <- add
+4;1;getelementptr <- alloca | getelementptr <- alloca | mul <- sub | sdiv <- mul
+4;2452417;icmp <- select | icmp <- load | br <- icmp | add <- add
+4;2468180;lshr <- mul | call <- lshr | call <- select | shl <- call
+4;160;br <- select | ashr <- add | add <- add | add <- add
+1;8843096;br <- icmp
+4;36;shl <- add | add <- add | add <- shl | select <- icmp
+1;131072;store <- sext
+5;153260;load <- getelementptr | icmp <- load | br <- icmp | trunc <- add | sub <- trunc
+2;255;br <- icmp | icmp <- add
+1;2468180;ashr <- load
+2;1;call <- alloca | icmp <- add
+3;2621440;getelementptr <- add | load <- getelementptr | icmp <- select
+5;1;call <- alloca | call <- alloca | call <- alloca | call <- alloca | icmp <- add
+2;640080;and <- load | and <- sub
+5;40;mul <- add | sdiv <- mul | add <- sdiv | udiv <- add | shl <- udiv
+5;160;br <- select | ashr <- add | add <- add | add <- add | zext <- add
+5;169023;call <- mul | add <- mul | call <- mul | call <- add | call <- add
+4;131072;icmp <- trunc | or <- icmp | or <- icmp | add <- add
+5;10160;shl <- add | br <- or | or <- add | add <- or | add <- shl
+4;169023;icmp <- select | icmp <- load | br <- icmp | store <- select
+5;629920;icmp <- add | br <- icmp | or <- add | add <- or | add <- shl
+5;40;br <- select | add <- add | add <- shl | zext <- add | getelementptr <- alloca
+2;20;icmp <- and | br <- icmp
+3;832132;store <- getelementptr | add <- add | icmp <- add
+5;40;icmp <- add | icmp <- add | shl <- add | select <- icmp | select <- icmp
+2;2468180;mul <- select | and <- mul
+5;169023;call <- add | call <- mul | add <- mul | call <- mul | call <- add
+5;60960;and <- load | store <- and | store <- getelementptr | add <- add | icmp <- add
+5;5120;sub <- trunc | mul <- sub | mul <- sub | trunc <- add | add <- add
+2;2468180;call <- select | shl <- call
+1;160;ashr <- mul
+5;120;or <- and | icmp <- getelementptr | icmp <- getelementptr | icmp <- getelementptr | icmp <- getelementptr
+3;12;add <- srem | icmp <- add | add <- srem
+2;256;shl <- add | icmp <- add
+2;701040;add <- load | ashr <- add
+3;512;mul <- add | add <- add | mul <- add
+2;394020;mul <- add | mul <- add
+4;2677280;icmp <- add | br <- icmp | add <- add | add <- shl
+2;640080;ashr <- sub | ashr <- sub
+5;512;br <- icmp | add <- add | mul <- add | mul <- add | add <- mul
+4;169023;call <- add | call <- mul | add <- mul | call <- add
+4;361;add <- add | zext <- add | getelementptr <- alloca | getelementptr <- alloca
+5;40;store <- getelementptr | icmp <- add | icmp <- add | shl <- sdiv | add <- shl
+5;40;icmp <- getelementptr | and <- icmp | and <- icmp | or <- and | or <- and
+3;640080;sub <- load | sub <- ashr | sub <- load
+2;4;icmp <- add | icmp <- srem
+3;2452417;icmp <- load | br <- icmp | add <- add
+2;147;add <- shl | zext <- add
+4;640080;getelementptr <- add | getelementptr <- getelementptr | getelementptr <- getelementptr | load <- getelementptr
+4;2692848;add <- add | icmp <- add | br <- icmp | add <- add
+3;40;add <- sdiv | icmp <- add | icmp <- add
+4;40;icmp <- add | shl <- sdiv | add <- shl | add <- sdiv
+4;7465500;getelementptr <- getelementptr | load <- getelementptr | getelementptr <- getelementptr | load <- getelementptr
+3;2677280;br <- icmp | add <- add | add <- shl
+3;40;br <- select | add <- add | add <- shl
+2;4;add <- srem | add <- srem
+5;20;add <- add | br <- xor | and <- call | icmp <- and | br <- icmp
+2;20;br <- xor | and <- call
+4;2468180;or <- and | add <- or | add <- shl | trunc <- add
+4;1280160;add <- add | add <- load | add <- add | add <- load
+2;3840480;load <- getelementptr | load <- getelementptr
+5;2468180;add <- or | add <- shl | trunc <- add | sub <- trunc | mul <- sub
+5;169023;call <- add | call <- add | call <- add | add <- add | icmp <- add
+5;60960;add <- load | ashr <- add | getelementptr <- alloca | getelementptr <- alloca | getelementptr <- add
+4;60960;getelementptr <- alloca | getelementptr <- add | load <- getelementptr | sub <- ashr
+5;1280160;add <- load | getelementptr <- getelementptr | getelementptr <- getelementptr | load <- getelementptr | load <- getelementptr
+4;144;select <- icmp | select <- select | select <- icmp | icmp <- mul
+3;131072;or <- or | add <- add | mul <- add
+5;640080;load <- getelementptr | getelementptr <- getelementptr | getelementptr <- getelementptr | load <- getelementptr | load <- getelementptr
+5;640080;sub <- load | sub <- ashr | sub <- load | ashr <- sub | ashr <- sub
+5;5100;add <- add | icmp <- add | br <- icmp | shl <- add | trunc <- add
+5;4;srem <- call | add <- srem | add <- srem | icmp <- add | add <- srem
+4;60960;ashr <- sub | sub <- sub | sub <- ashr | getelementptr <- alloca
+2;175;sub <- mul | mul <- sub
+3;10160;br <- or | or <- add | add <- or
+5;20;br <- xor | xor <- xor | mul <- sub | sdiv <- mul | add <- sdiv
+4;32;icmp <- add | br <- icmp | add <- add | add <- add
+3;2468180;sub <- add | ashr <- sub | add <- ashr
+4;2468180;icmp <- add | call <- add | select <- icmp | select <- call
+5;1;getelementptr <- alloca | getelementptr <- shl | br <- icmp | add <- add | mul <- add
+4;640080;load <- getelementptr | load <- getelementptr | and <- sub | and <- load
+4;1;getelementptr <- alloca | mul <- sub | sdiv <- mul | add <- sdiv
+3;80;ashr <- mul | add <- add | add <- add
+3;1;call <- alloca | icmp <- add | add <- add
+4;338046;call <- mul | add <- mul | call <- add | call <- mul
+3;2621440;load <- getelementptr | icmp <- load | br <- icmp
+4;40;add <- shl | add <- sdiv | icmp <- add | select <- icmp
+5;2529140;getelementptr <- getelementptr | load <- getelementptr | getelementptr <- getelementptr | load <- getelementptr | add <- load
+5;2468180;add <- ashr | icmp <- add | call <- add | select <- icmp | select <- call
+5;36;add <- add | add <- shl | select <- icmp | select <- icmp | select <- select
+4;512;add <- add | mul <- add | mul <- add | add <- add
+5;640080;getelementptr <- alloca | getelementptr <- alloca | getelementptr <- add | getelementptr <- getelementptr | getelementptr <- getelementptr
+5;74;select <- icmp | select <- select | select <- icmp | br <- select | sub <- mul
+2;131072;or <- icmp | or <- icmp
+5;640080;getelementptr <- alloca | getelementptr <- add | getelementptr <- getelementptr | getelementptr <- getelementptr | load <- getelementptr
+2;2468180;mul <- select | mul <- mul
+2;2682240;add <- add | add <- load
+2;2468180;or <- and | add <- or
+2;40;shl <- udiv | and <- shl
+4;40;add <- sdiv | add <- sdiv | icmp <- add | icmp <- add
+3;40;sub <- sub | sub <- ashr | ashr <- sub
+5;2468180;add <- load | add <- load | sub <- add | sub <- add | ashr <- sub
+3;640080;add <- or | add <- shl | getelementptr <- alloca
+3;5120;mul <- sub | trunc <- add | add <- add
+5;169023;call <- select | call <- mul | call <- mul | add <- mul | call <- add
+3;629920;br <- icmp | or <- add | add <- or
+2;121;mul <- sub | add <- add
+4;1;br <- icmp | getelementptr <- alloca | getelementptr <- alloca | mul <- sub
+4;629920;add <- add | icmp <- add | br <- icmp | or <- add
+5;169023;call <- add | call <- add | add <- mul | call <- mul | call <- add
+4;20;call <- add | call <- add | shl <- add | trunc <- add
+3;80;store <- getelementptr | icmp <- add | icmp <- add
+3;2468180;mul <- select | mul <- select | mul <- mul
+4;131072;getelementptr <- getelementptr | getelementptr <- add | store <- sext | store <- getelementptr
+3;2468180;add <- add | add <- ashr | icmp <- add
+3;640080;load <- getelementptr | getelementptr <- getelementptr | getelementptr <- getelementptr
+3;2621440;add <- add | add <- shl | getelementptr <- add
+3;2468180;select <- icmp | select <- call | mul <- select
+5;4;br <- icmp | srem <- call | add <- srem | srem <- call | add <- srem
+1;2637203;call <- select
+1;5242880;icmp <- load
+2;2468180;call <- add | select <- icmp
+4;40;udiv <- add | shl <- udiv | and <- shl | mul <- and
+2;262144;or <- icmp | or <- or
+5;19;add <- add | icmp <- add | br <- icmp | xor <- xor | mul <- sub
+4;60960;add <- add | add <- load | getelementptr <- getelementptr | load <- getelementptr
+3;40;add <- shl | add <- sdiv | icmp <- add
+4;60960;getelementptr <- alloca | getelementptr <- add | load <- getelementptr | and <- sub
+1;40;and <- shl
+4;40;and <- icmp | and <- icmp | or <- and | or <- and
+5;2677280;add <- add | icmp <- add | br <- icmp | add <- add | add <- shl
+4;20;add <- mul | store <- add | store <- getelementptr | add <- add
+5;10120;icmp <- add | br <- icmp | shl <- add | br <- or | or <- add
+5;2468180;or <- add | or <- and | add <- or | add <- shl | trunc <- add
+4;60960;getelementptr <- add | load <- getelementptr | and <- sub | and <- load
+3;160;select <- icmp | br <- select | mul <- add
+5;36;mul <- add | icmp <- add | icmp <- add | shl <- add | add <- add
+4;40;and <- icmp | or <- and | or <- and | icmp <- getelementptr
+4;393216;mul <- add | add <- mul | add <- mul | trunc <- add
+4;108;select <- icmp | select <- select | select <- icmp | select <- select
+2;36;shl <- add | add <- add
+4;393216;add <- add | mul <- add | mul <- add | add <- mul
+5;131072;or <- icmp | or <- or | xor <- or | sext <- xor | getelementptr <- getelementptr
+3;19;br <- icmp | xor <- xor | mul <- sub
+1;800;icmp <- getelementptr
+2;512;mul <- add | add <- add
+2;40;or <- and | shl <- add
+5;40;add <- mul | add <- sdiv | add <- sdiv | icmp <- add | icmp <- add
+2;131072;store <- sext | store <- getelementptr
+1;5253335;mul <- sub
+2;2103120;getelementptr <- alloca | getelementptr <- add
+3;20;store <- add | store <- getelementptr | add <- add
+3;2468180;mul <- select | mul <- mul | mul <- select
+4;338046;add <- mul | call <- mul | call <- add | call <- add
+5;40;add <- sdiv | udiv <- add | shl <- udiv | and <- shl | mul <- and
+2;40;mul <- and | add <- mul
+4;60960;load <- getelementptr | and <- sub | and <- load | store <- and
+5;40;and <- icmp | and <- icmp | icmp <- getelementptr | icmp <- getelementptr | icmp <- getelementptr
+3;32;br <- icmp | add <- add | add <- add
+5;4;icmp <- add | add <- srem | icmp <- add | add <- add | add <- add
+3;640080;add <- load | ashr <- add | ashr <- add
+3;2468180;add <- call | or <- add | or <- and
+5;40;icmp <- getelementptr | icmp <- getelementptr | and <- icmp | and <- icmp | icmp <- getelementptr
+3;169023;call <- mul | add <- mul | call <- mul
+4;121920;add <- load | getelementptr <- getelementptr | load <- getelementptr | add <- add
+5;16;icmp <- and | br <- icmp | call <- alloca | call <- alloca | call <- alloca
+5;20;add <- add | br <- xor | xor <- xor | mul <- sub | sdiv <- mul
+1;144;icmp <- mul
+2;131072;or <- or | add <- add
+4;40;and <- icmp | or <- or | or <- and | shl <- add
+3;1280160;add <- add | add <- load | add <- add
+4;256;mul <- add | shl <- add | icmp <- add | getelementptr <- alloca
+2;2468180;lshr <- mul | call <- lshr
+5;255;br <- icmp | icmp <- add | add <- add | mul <- add | mul <- add
+3;36;mul <- add | icmp <- add | icmp <- add
+4;640080;store <- getelementptr | store <- and | store <- getelementptr | add <- add
+2;175;add <- mul | store <- add
+4;40;icmp <- add | shl <- add | select <- icmp | select <- icmp
+5;160;select <- select | select <- icmp | br <- select | mul <- add | ashr <- mul
+3;40;store <- add | store <- getelementptr | add <- sdiv
+5;315;store <- getelementptr | select <- icmp | select <- icmp | select <- select | select <- icmp
+4;40;store <- add | store <- getelementptr | getelementptr <- alloca | getelementptr <- alloca
+5;36;mul <- add | mul <- add | icmp <- add | icmp <- add | shl <- add
+5;40;sub <- ashr | ashr <- sub | add <- ashr | add <- add | add <- add
+2;40;udiv <- add | shl <- udiv
+5;640080;getelementptr <- getelementptr | load <- getelementptr | load <- getelementptr | getelementptr <- getelementptr | getelementptr <- getelementptr
+2;4;add <- srem | srem <- call
+3;701040;and <- sub | and <- load | store <- and
+2;701040;load <- getelementptr | sub <- ashr
+2;40;ashr <- add | sub <- sub
+5;40;and <- icmp | or <- or | or <- and | shl <- add | br <- or
+4;130305;br <- icmp | br <- icmp | trunc <- add | switch <- trunc
+3;2467953;br <- icmp | add <- add | icmp <- add
+4;640080;sub <- load | ashr <- sub | ashr <- sub | sub <- sub
+5;4;br <- select | add <- add | icmp <- add | br <- icmp | call <- alloca
+5;169023;call <- mul | call <- mul | add <- mul | call <- add | call <- mul
+3;16;br <- select | add <- add | icmp <- add
+4;256;add <- add | mul <- add | mul <- add | shl <- add
+4;40;or <- or | or <- and | shl <- add | br <- or
+3;2621440;select <- icmp | select <- add | getelementptr <- add
+5;131072;trunc <- add | icmp <- trunc | or <- icmp | or <- or | xor <- or
+1;3507328;getelementptr <- alloca
+4;640080;add <- or | add <- shl | getelementptr <- alloca | getelementptr <- alloca
+3;3469124;add <- add | icmp <- add | br <- icmp
+3;80;or <- or | or <- and | icmp <- getelementptr
+5;2468180;select <- call | mul <- select | mul <- select | mul <- mul | mul <- select
+2;40;mul <- add | sdiv <- mul
+5;121;br <- select | sub <- mul | mul <- sub | add <- add | zext <- add
+5;4;icmp <- add | add <- srem | icmp <- add | icmp <- srem | icmp <- add
+3;3809300;getelementptr <- add | getelementptr <- getelementptr | load <- getelementptr
+2;338046;add <- mul | call <- add
+4;640080;getelementptr <- getelementptr | load <- getelementptr | load <- getelementptr | getelementptr <- getelementptr
+4;640080;sub <- sub | sub <- ashr | sub <- sub | sub <- ashr
+5;169023;call <- add | call <- mul | add <- mul | call <- add | call <- mul
+4;40;store <- add | store <- getelementptr | icmp <- add | select <- icmp
+5;1280160;getelementptr <- getelementptr | load <- getelementptr | load <- getelementptr | add <- add | add <- load
+4;40;add <- sdiv | udiv <- add | shl <- udiv | and <- shl
+1;3108260;add <- or
+5;40;add <- sdiv | icmp <- add | icmp <- add | shl <- sdiv | add <- shl
+3;4;add <- srem | icmp <- add | icmp <- srem
+3;1280160;add <- load | add <- add | add <- load
+4;40;and <- icmp | icmp <- getelementptr | icmp <- getelementptr | icmp <- getelementptr
+2;2621440;add <- shl | getelementptr <- add
+2;80;icmp <- add | shl <- sdiv
+3;27;add <- srem | add <- shl | zext <- add
+3;131072;or <- icmp | or <- icmp | add <- add
+5;60960;sub <- ashr | sub <- load | ashr <- sub | sub <- sub | sub <- ashr
+3;175;load <- getelementptr | add <- load | add <- mul
+4;535;getelementptr <- alloca | getelementptr <- zext | load <- getelementptr | add <- load
+2;15220;br <- icmp | shl <- add
+2;67;call <- alloca | call <- alloca
+5;4;call <- alloca | call <- alloca | call <- alloca | call <- alloca | call <- alloca
+2;2468180;add <- ashr | icmp <- add
+5;640080;sub <- load | ashr <- sub | ashr <- sub | sub <- sub | sub <- ashr
+2;40;or <- and | or <- and
+4;40;add <- load | add <- add | store <- add | store <- getelementptr
+5;1280160;load <- getelementptr | add <- add | add <- load | add <- add | add <- load
+5;1280160;getelementptr <- getelementptr | getelementptr <- getelementptr | load <- getelementptr | load <- getelementptr | add <- add
+4;1280160;add <- load | getelementptr <- getelementptr | getelementptr <- getelementptr | load <- getelementptr
+2;2682556;add <- add | add <- shl
+3;701040;sub <- sub | sub <- ashr | getelementptr <- alloca
+4;60960;load <- getelementptr | sub <- ashr | sub <- load | ashr <- sub
+2;283820;br <- icmp | trunc <- add
+5;130305;icmp <- add | br <- icmp | br <- icmp | trunc <- add | switch <- trunc
+2;629920;br <- icmp | or <- add
+1;2621440;select <- add
+2;40;add <- shl | add <- sdiv
+5;393216;mul <- add | mul <- add | add <- mul | add <- mul | trunc <- add
+3;535;getelementptr <- alloca | getelementptr <- alloca | getelementptr <- zext
+4;2468180;mul <- select | mul <- mul | mul <- select | and <- mul
+1;40;mul <- and
+5;1280160;getelementptr <- alloca | getelementptr <- add | getelementptr <- getelementptr | load <- getelementptr | load <- getelementptr
+2;4449380;getelementptr <- add | getelementptr <- getelementptr
+2;701040;ashr <- add | getelementptr <- alloca
+2;2468180;load <- getelementptr | ashr <- load
+3;130560;switch <- trunc | add <- add | mul <- add
+5;27;sub <- mul | mul <- sub | add <- srem | add <- shl | zext <- add
+3;40;ashr <- sub | add <- ashr | add <- add
+1;256;getelementptr <- shl
+2;169023;store <- getelementptr | trunc <- add
+2;40;add <- ashr | add <- add
+5;640080;ashr <- add | getelementptr <- alloca | getelementptr <- alloca | getelementptr <- add | getelementptr <- getelementptr
+3;169023;trunc <- add | call <- trunc | call <- trunc
+4;4;icmp <- add | br <- icmp | call <- alloca | call <- alloca
+5;2468180;icmp <- add | call <- add | select <- icmp | select <- call | mul <- select
+3;701040;add <- shl | getelementptr <- alloca | getelementptr <- alloca
+5;60960;getelementptr <- alloca | getelementptr <- add | getelementptr <- getelementptr | load <- getelementptr | getelementptr <- getelementptr
+4;60960;load <- getelementptr | add <- load | add <- load | getelementptr <- getelementptr
+5;640080;sub <- ashr | sub <- load | ashr <- sub | ashr <- sub | sub <- sub
+3;2468180;and <- mul | lshr <- mul | call <- lshr
+5;40;add <- sdiv | add <- sdiv | icmp <- add | icmp <- add | shl <- sdiv
+2;131072;sext <- xor | getelementptr <- getelementptr
+3;40;mul <- add | sdiv <- mul | add <- sdiv
+4;80;mul <- add | ashr <- mul | add <- add | add <- shl
+2;1;br <- icmp | getelementptr <- alloca
+5;61;select <- select | select <- icmp | br <- select | select <- icmp | select <- icmp
+4;4;icmp <- add | add <- add | add <- add | mul <- add
+4;640080;sub <- load | sub <- ashr | sub <- load | ashr <- sub
+1;80;sdiv <- mul
+1;8559712;icmp <- add
+5;60960;and <- sub | and <- load | store <- and | store <- getelementptr | add <- add
+3;20;br <- xor | xor <- xor | mul <- sub
+5;2468180;load <- getelementptr | ashr <- load | add <- add | add <- ashr | icmp <- add
+2;130560;trunc <- add | switch <- trunc
+5;535;zext <- add | getelementptr <- alloca | getelementptr <- alloca | getelementptr <- zext | load <- getelementptr
+2;144;icmp <- mul | select <- select
+4;1;call <- alloca | call <- alloca | call <- alloca | icmp <- add
+5;160;ashr <- add | add <- add | add <- add | zext <- add | getelementptr <- alloca
+4;60960;getelementptr <- alloca | getelementptr <- alloca | getelementptr <- add | load <- getelementptr
+4;131072;sext <- xor | getelementptr <- getelementptr | getelementptr <- add | store <- sext
+4;27;sub <- mul | mul <- sub | zext <- add | getelementptr <- alloca
+4;1;add <- add | icmp <- add | br <- icmp | getelementptr <- alloca
+4;315;store <- add | store <- getelementptr | select <- icmp | select <- icmp
+5;120;add <- load | add <- ashr | store <- add | store <- getelementptr | select <- icmp
+5;4;add <- add | icmp <- add | br <- icmp | call <- alloca | call <- alloca
+5;40;store <- getelementptr | icmp <- add | select <- icmp | select <- icmp | select <- select
+1;11696877;add <- add
+3;612;select <- icmp | select <- icmp | select <- select
+5;131072;or <- icmp | or <- icmp | add <- add | mul <- add | mul <- add
+5;360;select <- icmp | select <- icmp | select <- select | select <- icmp | br <- select
+4;40;mul <- and | add <- mul | add <- sdiv | add <- sdiv
+4;169023;call <- add | call <- add | call <- add | add <- add
+5;144;select <- icmp | icmp <- mul | select <- select | select <- icmp | br <- select
+4;200;icmp <- getelementptr | icmp <- getelementptr | icmp <- getelementptr | icmp <- getelementptr
+1;400;and <- icmp
+3;338046;call <- add | call <- mul | add <- mul
+5;4;icmp <- and | br <- icmp | srem <- call | add <- srem | srem <- call
+3;2468180;icmp <- load | br <- icmp | getelementptr <- add
+5;60960;getelementptr <- alloca | getelementptr <- add | load <- getelementptr | sub <- ashr | sub <- load
+5;255;icmp <- add | br <- icmp | icmp <- add | add <- add | mul <- add
+5;18;select <- icmp | select <- select | select <- icmp | br <- select | select <- icmp
+2;169023;trunc <- add | call <- trunc
+5;121;select <- icmp | br <- select | sub <- mul | mul <- sub | add <- add
+5;60960;getelementptr <- add | load <- getelementptr | sub <- ashr | sub <- load | ashr <- sub
+4;640080;getelementptr <- alloca | getelementptr <- add | getelementptr <- getelementptr | getelementptr <- getelementptr
+5;160;select <- icmp | br <- select | mul <- add | ashr <- mul | add <- add
+4;153260;icmp <- load | br <- icmp | trunc <- add | sub <- trunc
+4;5100;icmp <- add | br <- icmp | shl <- add | trunc <- add
+3;200;icmp <- getelementptr | icmp <- getelementptr | and <- icmp
+5;60960;getelementptr <- getelementptr | load <- getelementptr | add <- add | add <- load | getelementptr <- getelementptr
+4;144;select <- icmp | icmp <- mul | select <- select | select <- icmp
+4;1280160;getelementptr <- getelementptr | load <- getelementptr | load <- getelementptr | add <- add
+1;40;shl <- udiv
+2;169023;call <- add | add <- mul
+2;361;add <- add | zext <- add
+4;160;select <- select | select <- icmp | br <- select | ashr <- add
+1;1014138;call <- mul
+4;2468180;shl <- call | add <- call | or <- add | or <- and
+2;260;icmp <- add | add <- add
+3;512;br <- icmp | add <- add | mul <- add
+2;701040;load <- getelementptr | and <- sub
+5;1;call <- alloca | call <- alloca | call <- alloca | icmp <- add | add <- add
+3;144;select <- icmp | icmp <- mul | select <- select
+2;2621440;icmp <- select | icmp <- load
+4;3108260;load <- getelementptr | add <- load | add <- load | add <- load
+5;640080;getelementptr <- getelementptr | getelementptr <- getelementptr | load <- getelementptr | load <- getelementptr | getelementptr <- getelementptr
+4;10160;shl <- add | br <- or | or <- add | add <- or
+4;20;store <- add | store <- getelementptr | add <- add | icmp <- add
+2;256;icmp <- add | getelementptr <- alloca
+2;507069;call <- mul | add <- mul
+3;4;icmp <- srem | icmp <- add | add <- srem
+2;4;icmp <- srem | icmp <- add
+4;255;getelementptr <- shl | br <- icmp | trunc <- add | switch <- trunc
+2;2626560;mul <- sub | mul <- sub
+4;160;select <- icmp | br <- select | mul <- add | ashr <- mul
+3;160;br <- select | ashr <- add | add <- add
+5;10160;br <- or | or <- add | add <- or | add <- shl | getelementptr <- alloca
+4;640080;and <- load | and <- sub | and <- load | store <- and
+5;640080;and <- load | store <- and | store <- getelementptr | store <- and | store <- getelementptr
+3;4;srem <- call | add <- srem | add <- srem
+4;640080;add <- load | add <- load | add <- load | getelementptr <- getelementptr
+4;1280160;load <- getelementptr | load <- getelementptr | add <- add | add <- load
+5;2468180;add <- shl | trunc <- add | sub <- trunc | mul <- sub | mul <- sub
+4;40;add <- sdiv | mul <- add | sdiv <- mul | add <- sdiv
+5;40;icmp <- getelementptr | icmp <- getelementptr | and <- icmp | and <- icmp | or <- and
+4;169023;store <- select | store <- getelementptr | trunc <- add | call <- trunc
+3;121920;getelementptr <- alloca | getelementptr <- add | load <- getelementptr
+4;144;select <- select | select <- icmp | icmp <- mul | select <- select
+5;40;add <- ashr | store <- add | store <- getelementptr | getelementptr <- alloca | getelementptr <- alloca
+4;20;br <- icmp | call <- alloca | call <- alloca | call <- alloca
+4;2468180;add <- load | sub <- add | sub <- add | ashr <- sub
+4;80;and <- icmp | or <- or | or <- and | icmp <- getelementptr
+4;4;icmp <- add | add <- srem | icmp <- add | icmp <- srem
+4;640080;sub <- ashr | sub <- load | sub <- ashr | sub <- load
+3;27;sub <- mul | mul <- sub | zext <- add
+5;10120;add <- add | icmp <- add | br <- icmp | shl <- add | br <- or
+2;56;br <- select | add <- add
+5;40;icmp <- add | shl <- sdiv | add <- shl | add <- sdiv | icmp <- add
+2;120;or <- or | or <- and
+2;535;getelementptr <- alloca | getelementptr <- zext
+5;20;call <- alloca | call <- alloca | call <- add | call <- add | shl <- add
+3;169023;call <- add | call <- add | add <- mul
+5;175;select <- select | select <- icmp | br <- select | sub <- mul | mul <- sub
+5;144;select <- icmp | select <- select | select <- icmp | icmp <- mul | select <- select
+5;40;add <- add | icmp <- add | br <- icmp | ashr <- add | sub <- sub
+4;676092;call <- add | call <- add | call <- add | call <- add
+4;640080;store <- and | store <- getelementptr | store <- and | store <- getelementptr
+5;20;add <- load | add <- mul | store <- add | store <- getelementptr | add <- add
+5;40;getelementptr <- alloca | getelementptr <- zext | load <- getelementptr | add <- load | add <- add
+3;2468180;call <- add | select <- icmp | select <- call
+2;2468180;ashr <- load | add <- add
+1;240;add <- sdiv
+4;2468180;load <- getelementptr | ashr <- load | add <- add | add <- ashr
+3;19;icmp <- add | br <- icmp | xor <- xor
+4;121;mul <- sub | add <- add | zext <- add | getelementptr <- alloca
+4;4;icmp <- add | add <- srem | icmp <- add | add <- add
+5;40;getelementptr <- alloca | icmp <- getelementptr | icmp <- getelementptr | icmp <- getelementptr | icmp <- getelementptr
+4;130816;add <- add | icmp <- add | br <- icmp | br <- icmp
+4;640080;load <- getelementptr | getelementptr <- getelementptr | getelementptr <- getelementptr | load <- getelementptr
+5;169023;call <- add | add <- mul | call <- mul | call <- add | call <- add
+4;4936360;load <- getelementptr | getelementptr <- getelementptr | load <- getelementptr | getelementptr <- getelementptr
+3;2621440;select <- add | getelementptr <- add | load <- getelementptr
+1;3108260;or <- add
+3;40;and <- icmp | and <- icmp | icmp <- getelementptr
+4;40;store <- getelementptr | getelementptr <- alloca | getelementptr <- alloca | getelementptr <- alloca
+4;640080;or <- add | add <- or | add <- shl | getelementptr <- alloca
+2;40;sub <- ashr | ashr <- sub
+5;5100;br <- icmp | shl <- add | trunc <- add | sub <- trunc | mul <- sub
+2;320;add <- load | add <- ashr
+5;2468180;getelementptr <- getelementptr | load <- getelementptr | add <- load | add <- load | add <- load
+4;120;or <- and | icmp <- getelementptr | icmp <- getelementptr | icmp <- getelementptr
+2;175;br <- select | sub <- mul
+3;7465500;load <- getelementptr | getelementptr <- getelementptr | load <- getelementptr
+3;240;add <- add | add <- add | zext <- add
+4;40;getelementptr <- zext | load <- getelementptr | add <- load | add <- add
+5;40;mul <- sub | sdiv <- mul | add <- sdiv | mul <- add | sdiv <- mul
+3;169023;call <- trunc | call <- select | call <- mul
+5;256;mul <- add | mul <- add | shl <- add | icmp <- add | getelementptr <- alloca
+4;27;br <- select | sub <- mul | mul <- sub | add <- srem
+4;2468180;ashr <- load | add <- add | add <- ashr | icmp <- add
+3;169023;br <- icmp | store <- select | store <- getelementptr
+5;640080;add <- load | add <- load | add <- load | add <- load | getelementptr <- getelementptr
+1;15612;shl <- add
+5;2468180;or <- and | add <- or | add <- shl | trunc <- add | sub <- trunc
+2;120;and <- icmp | or <- or
+5;20;call <- alloca | call <- alloca | call <- alloca | call <- alloca | call <- add
+4;80;mul <- add | ashr <- mul | add <- add | add <- add
+5;131072;or <- icmp | or <- or | add <- add | mul <- add | mul <- add
+5;40;store <- getelementptr | add <- sdiv | icmp <- add | select <- icmp | select <- icmp
+5;2468180;ashr <- load | add <- add | add <- ashr | icmp <- add | call <- add
+4;2452417;icmp <- load | br <- icmp | add <- add | icmp <- add
+5;40;select <- select | select <- icmp | br <- select | add <- add | add <- shl
+5;640080;load <- getelementptr | load <- getelementptr | add <- load | add <- load | add <- load
+2;20;call <- alloca | call <- add
+4;640080;add <- add | add <- load | getelementptr <- getelementptr | getelementptr <- getelementptr
+4;315;store <- getelementptr | select <- icmp | select <- icmp | select <- select
+5;131072;or <- or | xor <- or | sext <- xor | getelementptr <- getelementptr | getelementptr <- add
+2;9385740;add <- load | add <- load
+3;16;icmp <- add | add <- srem | icmp <- add
+3;256;mul <- add | shl <- add | icmp <- add
+3;2468180;add <- ashr | load <- getelementptr | ashr <- load
+1;40;udiv <- add
+4;20;add <- add | br <- xor | and <- call | icmp <- and
+3;147;add <- shl | zext <- add | getelementptr <- alloca
+4;1280160;load <- getelementptr | add <- add | add <- load | add <- add
+2;640080;sub <- ashr | sub <- sub
+1;10160;br <- or
+4;130305;icmp <- add | br <- icmp | br <- icmp | trunc <- add
+2;130816;br <- icmp | br <- icmp
+4;153260;load <- getelementptr | icmp <- load | br <- icmp | trunc <- add
+5;40;store <- add | store <- getelementptr | icmp <- add | icmp <- add | shl <- add
+5;4;add <- srem | icmp <- add | add <- add | add <- add | mul <- add
+3;175;add <- load | add <- mul | store <- add
+5;255;icmp <- add | getelementptr <- alloca | getelementptr <- shl | br <- icmp | trunc <- add
+3;1;br <- icmp | getelementptr <- alloca | getelementptr <- alloca
+4;40;and <- shl | mul <- and | add <- mul | add <- sdiv
+1;788240;mul <- add
+2;5120;trunc <- add | add <- add
+5;40;sdiv <- mul | add <- sdiv | udiv <- add | shl <- udiv | and <- shl
+4;80;icmp <- add | icmp <- add | shl <- sdiv | add <- shl
+5;40;add <- ashr | store <- add | store <- getelementptr | icmp <- add | select <- icmp
+5;43;icmp <- mul | select <- select | select <- icmp | br <- select | select <- icmp
+4;40;icmp <- getelementptr | and <- icmp | and <- icmp | or <- and
+2;40;mul <- sub | sdiv <- mul
+4;36;mul <- add | icmp <- add | icmp <- add | shl <- add
+4;2626560;trunc <- add | sub <- trunc | mul <- sub | mul <- sub
+5;256;icmp <- add | add <- add | mul <- add | mul <- add | add <- add
+4;200;icmp <- getelementptr | icmp <- getelementptr | icmp <- getelementptr | and <- icmp
+4;40;store <- getelementptr | add <- sdiv | icmp <- add | select <- icmp
+5;640080;add <- load | add <- add | add <- load | getelementptr <- getelementptr | getelementptr <- getelementptr
+2;2468180;call <- lshr | call <- select
+4;2621440;add <- add | add <- shl | getelementptr <- add | load <- getelementptr
+5;144;select <- icmp | select <- icmp | select <- select | select <- icmp | icmp <- mul
+2;76;icmp <- add | shl <- add
+4;8;icmp <- add | add <- srem | icmp <- add | add <- srem
+1;338046;call <- trunc
+3;4;srem <- call | add <- srem | srem <- call
+5;40;store <- getelementptr | icmp <- add | icmp <- add | shl <- add | select <- icmp
+2;120;or <- and | icmp <- getelementptr
+4;153260;br <- icmp | trunc <- add | sub <- trunc | mul <- sub
+4;2621440;add <- shl | getelementptr <- add | load <- getelementptr | icmp <- load
+4;131072;icmp <- trunc | or <- icmp | or <- or | add <- add
+2;10160;shl <- add | br <- or
+5;19;br <- icmp | xor <- xor | mul <- sub | sdiv <- mul | add <- sdiv
+2;156;icmp <- add | icmp <- add
+5;60960;getelementptr <- alloca | getelementptr <- add | load <- getelementptr | and <- sub | and <- load
+5;5120;trunc <- add | add <- add | add <- shl | getelementptr <- add | load <- getelementptr
+5;36;icmp <- add | shl <- add | add <- add | add <- shl | select <- icmp
+3;40;add <- add | add <- add | br <- xor
+5;2468180;shl <- call | add <- call | or <- add | or <- and | add <- or
+5;60960;load <- getelementptr | add <- add | add <- load | getelementptr <- getelementptr | load <- getelementptr
+4;40;ashr <- add | sub <- sub | sub <- ashr | ashr <- sub
+1;131072;xor <- or
+5;4;add <- srem | srem <- call | add <- srem | add <- srem | icmp <- add
+4;169023;call <- add | add <- mul | call <- mul | call <- add
+4;36;add <- add | mul <- add | mul <- add | icmp <- add
+1;6705619;add <- mul
+3;2621440;icmp <- select | icmp <- load | br <- icmp
+2;535;getelementptr <- zext | load <- getelementptr
+5;4;icmp <- add | br <- icmp | call <- alloca | call <- alloca | call <- alloca
+3;701040;ashr <- add | getelementptr <- alloca | getelementptr <- alloca
+2;535;store <- add | store <- getelementptr
+3;175;add <- mul | store <- add | store <- getelementptr
+5;131072;trunc <- add | icmp <- trunc | or <- icmp | or <- icmp | add <- add
+3;640080;and <- sub | and <- load | and <- sub
+4;640080;ashr <- sub | sub <- sub | sub <- ashr | sub <- sub
+5;640080;getelementptr <- getelementptr | load <- getelementptr | load <- getelementptr | add <- load | add <- load
+5;40;br <- icmp | add <- add | icmp <- add | br <- icmp | ashr <- add
+1;8;srem <- call
+4;2621440;add <- mul | icmp <- add | select <- icmp | select <- add
+5;2452417;load <- getelementptr | icmp <- select | icmp <- load | br <- icmp | add <- add
+4;2468180;mul <- mul | mul <- select | and <- mul | lshr <- mul
+5;169023;icmp <- load | br <- icmp | store <- select | store <- getelementptr | trunc <- add
+3;315;store <- add | store <- getelementptr | select <- icmp
+4;20;add <- add | add <- add | br <- xor | xor <- xor
+4;2468180;add <- shl | trunc <- add | sub <- trunc | mul <- sub
+4;4;add <- srem | srem <- call | add <- srem | add <- srem
+3;131072;getelementptr <- getelementptr | getelementptr <- add | store <- sext
+4;535;zext <- add | getelementptr <- alloca | getelementptr <- alloca | getelementptr <- zext
+2;338046;call <- add | call <- mul
+3;338046;add <- mul | call <- add | call <- mul
+3;2468180;add <- load | add <- load | sub <- add
+3;2621440;mul <- sub | mul <- sub | add <- mul
+3;40;add <- load | add <- add | store <- add
+5;32;br <- icmp | add <- add | add <- add | mul <- add | mul <- add
+3;20;br <- xor | and <- call | icmp <- and
+4;121920;getelementptr <- getelementptr | load <- getelementptr | add <- add | add <- load
+3;400;icmp <- getelementptr | icmp <- getelementptr | icmp <- getelementptr
+2;160;mul <- add | ashr <- mul
+5;2621440;getelementptr <- add | load <- getelementptr | icmp <- select | icmp <- load | br <- icmp
+3;701040;sub <- ashr | sub <- load | ashr <- sub
+5;153260;getelementptr <- add | load <- getelementptr | icmp <- load | br <- icmp | trunc <- add
+4;2621440;select <- add | getelementptr <- add | load <- getelementptr | icmp <- select
+2;160;ashr <- add | add <- add
+4;640080;add <- load | ashr <- add | ashr <- add | getelementptr <- alloca
+4;40;sub <- sub | sub <- ashr | ashr <- sub | add <- ashr
+5;40;load <- getelementptr | add <- load | add <- add | store <- add | store <- getelementptr
+3;40;add <- ashr | add <- add | add <- add
+3;169023;call <- trunc | call <- trunc | call <- select
+4;4;icmp <- add | icmp <- srem | icmp <- add | add <- srem
+2;169023;call <- add | add <- add
+3;121;mul <- sub | add <- add | zext <- add
+4;169023;call <- add | call <- add | add <- add | icmp <- add
+4;5120;shl <- add | trunc <- add | sub <- trunc | mul <- sub
+5;40;store <- add | store <- getelementptr | icmp <- add | icmp <- add | shl <- sdiv
+2;2468220;ashr <- sub | add <- ashr
+3;640080;load <- getelementptr | load <- getelementptr | getelementptr <- getelementptr
+5;76;add <- shl | select <- icmp | select <- icmp | select <- select | select <- icmp
+5;36;shl <- add | add <- add | add <- shl | select <- icmp | select <- icmp
+4;32;br <- icmp | add <- add | add <- add | mul <- add
+5;393216;mul <- add | add <- mul | add <- mul | trunc <- add | icmp <- trunc
+5;640080;add <- add | add <- load | getelementptr <- getelementptr | getelementptr <- getelementptr | load <- getelementptr
+5;160;select <- icmp | br <- select | ashr <- add | add <- add | add <- add
+5;361;add <- add | zext <- add | getelementptr <- alloca | getelementptr <- alloca | getelementptr <- zext
+3;1981200;getelementptr <- alloca | getelementptr <- add | getelementptr <- getelementptr
+3;701040;store <- and | store <- getelementptr | add <- add
+4;40;or <- and | or <- and | icmp <- getelementptr | icmp <- getelementptr
+5;40;mul <- and | add <- mul | add <- sdiv | add <- sdiv | icmp <- add
+4;155;add <- mul | store <- add | store <- getelementptr | select <- icmp
+4;80;add <- sdiv | icmp <- add | select <- icmp | select <- icmp
+4;640080;add <- load | add <- add | add <- load | ashr <- add
+3;60960;add <- load | ashr <- add | getelementptr <- alloca
+4;2468180;or <- add | or <- and | add <- or | add <- shl
+4;80;or <- or | or <- and | icmp <- getelementptr | icmp <- getelementptr
+5;535;getelementptr <- alloca | getelementptr <- alloca | getelementptr <- zext | load <- getelementptr | add <- load
+2;27;mul <- sub | zext <- add
+4;40;add <- sdiv | icmp <- add | icmp <- add | shl <- sdiv
+4;40;getelementptr <- alloca | getelementptr <- alloca | icmp <- getelementptr | icmp <- getelementptr
+2;3108260;add <- or | add <- shl
+4;701040;add <- shl | getelementptr <- alloca | getelementptr <- alloca | getelementptr <- add
+4;16;icmp <- and | br <- icmp | call <- alloca | call <- alloca
+4;1;call <- alloca | call <- alloca | icmp <- add | add <- add
+3;2468180;select <- call | mul <- select | mul <- select
+4;640080;ashr <- add | ashr <- add | getelementptr <- alloca | getelementptr <- alloca
+2;40;store <- getelementptr | getelementptr <- alloca
+5;130560;switch <- trunc | add <- add | mul <- add | mul <- add | add <- mul
+2;40;and <- icmp | icmp <- getelementptr
+2;393216;icmp <- trunc | or <- icmp
+3;640080;load <- getelementptr | load <- getelementptr | and <- sub
+1;2621440;icmp <- select
+5;60960;getelementptr <- add | load <- getelementptr | and <- sub | and <- load | store <- and
+5;40;add <- ashr | store <- add | store <- getelementptr | add <- sdiv | icmp <- add
+3;76;add <- shl | select <- icmp | select <- icmp
+3;40;shl <- add | select <- icmp | select <- icmp
+3;393216;mul <- add | add <- mul | add <- mul
+1;20;icmp <- and
+3;640080;sub <- ashr | sub <- sub | sub <- ashr
+4;120;add <- add | add <- shl | zext <- add | getelementptr <- alloca
+5;131072;xor <- or | sext <- xor | getelementptr <- getelementptr | getelementptr <- add | store <- sext
+5;130560;br <- icmp | trunc <- add | switch <- trunc | add <- add | mul <- add
+3;131072;icmp <- trunc | or <- icmp | or <- icmp
+5;1280160;load <- getelementptr | load <- getelementptr | add <- add | add <- load | add <- add
+5;4936360;getelementptr <- getelementptr | load <- getelementptr | getelementptr <- getelementptr | load <- getelementptr | getelementptr <- getelementptr
+5;2621440;add <- add | add <- shl | getelementptr <- add | load <- getelementptr | icmp <- load
+2;1341120;sub <- ashr | sub <- load
+5;1;call <- alloca | icmp <- add | add <- add | mul <- add | mul <- add
+5;40;store <- add | store <- getelementptr | icmp <- add | select <- icmp | select <- icmp
+3;701040;and <- load | store <- and | store <- getelementptr
+5;60960;add <- add | add <- load | ashr <- add | getelementptr <- alloca | getelementptr <- alloca
+4;131072;or <- icmp | or <- or | add <- add | mul <- add
+3;2468180;load <- getelementptr | ashr <- load | add <- add
+5;3108260;load <- getelementptr | add <- load | add <- load | add <- load | add <- load
+5;2621440;icmp <- add | select <- icmp | select <- add | getelementptr <- add | load <- getelementptr
+2;1402080;add <- load | getelementptr <- getelementptr
+3;40;getelementptr <- alloca | getelementptr <- alloca | icmp <- getelementptr
+3;27;mul <- sub | add <- srem | add <- shl
+4;27;mul <- sub | add <- srem | add <- shl | zext <- add
+5;315;store <- add | store <- getelementptr | select <- icmp | select <- icmp | select <- select
+5;36;add <- add | add <- add | mul <- add | mul <- add | icmp <- add
+4;2621440;select <- icmp | select <- add | getelementptr <- add | load <- getelementptr
+3;10160;shl <- add | br <- or | or <- add
+5;60960;add <- add | add <- load | getelementptr <- getelementptr | load <- getelementptr | add <- add
+5;2452417;icmp <- load | br <- icmp | add <- add | icmp <- add | br <- icmp
+5;19;br <- icmp | add <- add | icmp <- add | br <- icmp | xor <- xor
+5;61;select <- icmp | br <- select | select <- icmp | select <- icmp | select <- select
+5;27;mul <- sub | add <- srem | add <- shl | zext <- add | getelementptr <- alloca
+3;36;mul <- add | mul <- add | icmp <- add
+5;640080;add <- add | add <- load | ashr <- add | ashr <- add | getelementptr <- alloca
+5;629920;br <- icmp | or <- add | add <- or | add <- shl | getelementptr <- alloca
+5;121;sub <- mul | mul <- sub | add <- add | zext <- add | getelementptr <- alloca
+5;130305;add <- add | icmp <- add | br <- icmp | br <- icmp | trunc <- add
+2;40;add <- sdiv | udiv <- add
+5;640080;and <- load | and <- sub | and <- load | store <- and | store <- getelementptr
+2;40;add <- add | br <- xor
+2;40;add <- sdiv | mul <- add
+4;2468180;add <- add | add <- ashr | icmp <- add | call <- add
+1;2468180;and <- mul
+2;2468180;and <- mul | lshr <- mul
+3;169023;call <- add | call <- add | add <- add
+2;2468180;select <- icmp | select <- call
+5;2621440;add <- mul | icmp <- add | select <- icmp | select <- add | getelementptr <- add
+1;4936360;sub <- add
+4;169023;call <- select | call <- mul | call <- mul | add <- mul
+4;5100;br <- icmp | shl <- add | trunc <- add | sub <- trunc
+1;1341120;and <- load
+5;40;icmp <- add | icmp <- add | shl <- sdiv | add <- shl | select <- icmp
+5;15536;add <- add | icmp <- add | br <- icmp | add <- add | icmp <- add
+5;56;select <- icmp | select <- select | select <- icmp | br <- select | add <- add
+4;16;select <- icmp | br <- select | add <- add | icmp <- add
+4;640080;and <- sub | and <- load | and <- sub | and <- load
+2;5364800;getelementptr <- add | load <- getelementptr
+5;60960;load <- getelementptr | and <- sub | and <- load | store <- and | store <- getelementptr
+4;40;sdiv <- mul | add <- sdiv | udiv <- add | shl <- udiv
+1;2682280;sub <- ashr
+5;131072;getelementptr <- getelementptr | getelementptr <- add | store <- sext | store <- getelementptr | add <- add
+5;169023;add <- mul | call <- add | call <- mul | add <- mul | call <- mul
+3;120;store <- add | store <- getelementptr | icmp <- add
+4;144;icmp <- mul | select <- select | select <- icmp | br <- select
+2;160;br <- select | mul <- add
+5;130305;br <- icmp | br <- icmp | trunc <- add | switch <- trunc | add <- add
+3;2621440;load <- getelementptr | icmp <- select | icmp <- load
+5;36;icmp <- add | icmp <- add | shl <- add | add <- add | add <- shl
+4;147;add <- shl | zext <- add | getelementptr <- alloca | getelementptr <- alloca
+4;255;icmp <- add | br <- icmp | icmp <- add | add <- add
+4;169023;call <- mul | call <- mul | add <- mul | call <- add
+3;4;icmp <- and | br <- icmp | srem <- call
+4;2468180;icmp <- load | br <- icmp | getelementptr <- add | getelementptr <- getelementptr
+3;2529140;getelementptr <- getelementptr | load <- getelementptr | add <- load
+5;2468180;select <- icmp | select <- call | mul <- select | mul <- select | mul <- mul
+4;40;shl <- add | select <- icmp | select <- icmp | select <- select
+3;121;sub <- mul | mul <- sub | add <- add
+4;40;add <- ashr | store <- add | store <- getelementptr | add <- sdiv
+5;2468180;add <- load | add <- load | add <- load | sub <- add | sub <- add
+5;80;add <- sdiv | icmp <- add | select <- icmp | select <- icmp | select <- select
+4;130560;br <- icmp | trunc <- add | switch <- trunc | add <- add
+4;40;br <- select | add <- add | add <- shl | zext <- add
+5;2468180;icmp <- load | br <- icmp | getelementptr <- add | getelementptr <- getelementptr | load <- getelementptr
+5;101;icmp <- mul | select <- select | select <- icmp | br <- select | sub <- mul
+2;2621560;icmp <- add | select <- icmp
+3;2621440;add <- mul | icmp <- add | select <- icmp
+4;10120;br <- icmp | shl <- add | br <- or | or <- add
+3;1;getelementptr <- shl | br <- icmp | add <- add
+5;169023;call <- add | call <- add | call <- add | call <- add | add <- mul
+2;27;add <- srem | add <- shl
+4;40;add <- ashr | add <- add | add <- add | br <- xor
+2;36;mul <- add | icmp <- add
+3;640080;sub <- sub | sub <- ashr | sub <- sub
+3;6216520;add <- load | add <- load | add <- load
+3;20;call <- alloca | call <- alloca | call <- add
+5;80;br <- select | mul <- add | ashr <- mul | add <- add | add <- shl
+3;4;icmp <- add | br <- icmp | call <- alloca
+5;256;mul <- add | shl <- add | icmp <- add | getelementptr <- alloca | getelementptr <- shl
+3;1402080;load <- getelementptr | add <- add | add <- load
+4;19;br <- icmp | xor <- xor | mul <- sub | sdiv <- mul
+5;131072;or <- or | add <- add | mul <- add | mul <- add | add <- mul
+2;832132;store <- getelementptr | add <- add
+3;701040;add <- add | add <- load | getelementptr <- getelementptr
+3;27;sub <- mul | mul <- sub | add <- srem
+5;511;icmp <- add | br <- icmp | br <- icmp | add <- add | mul <- add
+2;5242880;icmp <- load | br <- icmp
+1;15237735;add <- load
+4;640080;load <- getelementptr | load <- getelementptr | add <- load | add <- load
+2;2621440;select <- add | getelementptr <- add
+4;60960;sub <- ashr | getelementptr <- alloca | getelementptr <- add | load <- getelementptr
+4;4;add <- srem | add <- srem | icmp <- add | add <- srem
+5;640080;or <- add | add <- or | add <- shl | getelementptr <- alloca | getelementptr <- alloca
+5;255;add <- add | icmp <- add | br <- icmp | icmp <- add | add <- add
+3;338046;call <- mul | call <- add | call <- add
+2;40;add <- add | store <- add
+3;1280160;load <- getelementptr | load <- getelementptr | add <- add
+2;864;select <- select | select <- icmp
+4;60960;getelementptr <- add | load <- getelementptr | sub <- ashr | sub <- load
+2;2621440;mul <- sub | add <- mul
+4;2468180;br <- icmp | getelementptr <- add | getelementptr <- getelementptr | load <- getelementptr
+5;640080;sub <- ashr | sub <- sub | sub <- ashr | getelementptr <- alloca | getelementptr <- add
+5;131072;icmp <- trunc | or <- icmp | or <- or | add <- add | mul <- add
+3;61;select <- icmp | br <- select | select <- icmp
+4;40;store <- add | store <- getelementptr | add <- sdiv | icmp <- add
+3;1;getelementptr <- alloca | getelementptr <- alloca | mul <- sub
+5;1;icmp <- add | br <- icmp | getelementptr <- alloca | getelementptr <- alloca | mul <- sub
+5;175;getelementptr <- zext | load <- getelementptr | add <- load | add <- mul | store <- add
+4;160;br <- select | mul <- add | ashr <- mul | add <- add
+3;256;icmp <- add | add <- add | mul <- add
+4;16;br <- select | add <- add | icmp <- add | br <- icmp
+2;3169755;load <- getelementptr | add <- load
+2;39;xor <- xor | mul <- sub
+5;60960;getelementptr <- alloca | getelementptr <- alloca | getelementptr <- add | load <- getelementptr | sub <- ashr
+3;60960;sub <- load | ashr <- sub | sub <- sub
+4;80;store <- add | store <- getelementptr | icmp <- add | icmp <- add
+4;60960;add <- load | add <- load | getelementptr <- getelementptr | load <- getelementptr
+5;2468180;br <- icmp | getelementptr <- add | getelementptr <- getelementptr | load <- getelementptr | getelementptr <- getelementptr
+4;832132;store <- getelementptr | add <- add | icmp <- add | br <- icmp
+5;2468180;lshr <- mul | call <- lshr | call <- select | shl <- call | add <- call
+3;16;icmp <- and | br <- icmp | call <- alloca
+4;1;icmp <- add | br <- icmp | getelementptr <- alloca | getelementptr <- alloca
+5;169023;call <- trunc | call <- select | call <- mul | call <- mul | add <- mul
+2;80;shl <- sdiv | add <- shl
+4;2560320;getelementptr <- getelementptr | getelementptr <- getelementptr | load <- getelementptr | load <- getelementptr
+5;108;select <- select | select <- icmp | select <- select | select <- icmp | br <- select
+5;60960;add <- add | add <- shl | getelementptr <- alloca | getelementptr <- alloca | getelementptr <- add
+2;160;ashr <- mul | add <- add
+3;2468180;add <- or | add <- shl | trunc <- add
+1;88;call <- alloca
+4;25;call <- alloca | call <- alloca | call <- alloca | call <- alloca
+4;338046;add <- mul | call <- add | call <- mul | add <- mul
+4;2529140;getelementptr <- getelementptr | load <- getelementptr | add <- load | add <- load
+4;262144;trunc <- add | icmp <- trunc | or <- icmp | or <- or
+5;512;add <- add | mul <- add | mul <- add | add <- add | mul <- add
+5;640080;store <- and | store <- getelementptr | store <- and | store <- getelementptr | add <- add
+2;2626560;trunc <- add | sub <- trunc
+4;10120;icmp <- add | br <- icmp | shl <- add | br <- or
+2;2621440;add <- mul | icmp <- add
+3;2621440;add <- mul | add <- mul | icmp <- add
+5;60960;icmp <- add | br <- icmp | add <- add | add <- shl | getelementptr <- alloca
+3;255;getelementptr <- shl | br <- icmp | trunc <- add
+2;2468180;mul <- select | mul <- select
+3;40;or <- and | shl <- add | br <- or
+2;3014656;add <- mul | add <- mul
+4;27;br <- select | sub <- mul | mul <- sub | zext <- add
+4;120;and <- icmp | and <- icmp | or <- or | or <- and
+3;131072;or <- icmp | or <- or | add <- add
+5;2452417;icmp <- select | icmp <- load | br <- icmp | add <- add | icmp <- add
+4;256;shl <- add | icmp <- add | getelementptr <- alloca | getelementptr <- shl
+2;169023;call <- select | call <- mul
+3;131072;sext <- xor | getelementptr <- getelementptr | getelementptr <- add
+5;80;add <- ashr | store <- add | store <- getelementptr | icmp <- add | icmp <- add
+4;512;mul <- add | mul <- add | add <- add | mul <- add
+4;169023;trunc <- add | call <- trunc | call <- trunc | call <- select
+2;720;select <- icmp | select <- select
+4;175;load <- getelementptr | add <- load | add <- mul | store <- add
+3;2626560;sub <- trunc | mul <- sub | mul <- sub
+2;80;sdiv <- mul | add <- sdiv
+5;2468180;mul <- select | mul <- mul | mul <- select | and <- mul | lshr <- mul
+3;393216;mul <- add | mul <- add | add <- mul
+3;2468180;sub <- add | sub <- add | ashr <- sub
+4;131072;or <- icmp | or <- or | xor <- or | sext <- xor
+3;40;shl <- udiv | and <- shl | mul <- and
+2;40;store <- getelementptr | add <- sdiv
+2;640080;ashr <- add | ashr <- add
+4;15536;icmp <- add | br <- icmp | add <- add | icmp <- add
+3;40;icmp <- add | shl <- add | select <- icmp
+4;40;br <- icmp | ashr <- add | sub <- sub | sub <- ashr
+3;20;call <- alloca | call <- add | call <- add
+4;4;br <- icmp | srem <- call | add <- srem | srem <- call
+5;169023;load <- getelementptr | icmp <- select | icmp <- load | br <- icmp | store <- select
+2;20;call <- add | shl <- add
+4;640080;load <- getelementptr | and <- sub | and <- load | and <- sub
+4;40;icmp <- add | br <- icmp | ashr <- add | sub <- sub
+3;40;add <- add | store <- add | store <- getelementptr
+5;4;add <- srem | icmp <- add | icmp <- srem | icmp <- add | add <- srem
+4;4;and <- call | icmp <- and | br <- icmp | srem <- call
+3;120;icmp <- add | select <- icmp | select <- icmp
+5;40;shl <- sdiv | add <- shl | select <- icmp | select <- icmp | select <- select
+4;5120;trunc <- add | add <- add | add <- shl | getelementptr <- add
+5;40;icmp <- add | shl <- add | select <- icmp | select <- icmp | select <- select
+3;60960;getelementptr <- add | load <- getelementptr | and <- sub
+4;5120;mul <- sub | mul <- sub | trunc <- add | add <- add
+4;2468180;add <- ashr | load <- getelementptr | ashr <- load | add <- add
+3;701040;load <- getelementptr | and <- sub | and <- load
+4;80;ashr <- mul | add <- add | add <- shl | zext <- add
+5;4;srem <- call | add <- srem | srem <- call | add <- srem | add <- srem
+4;76;add <- shl | select <- icmp | select <- icmp | select <- select
+4;468;select <- icmp | select <- select | select <- icmp | br <- select
+5;5120;trunc <- add | sub <- trunc | mul <- sub | mul <- sub | trunc <- add
+2;1341120;store <- and | store <- getelementptr
+3;80;icmp <- add | icmp <- add | shl <- sdiv
+2;131072;or <- icmp | add <- add
+3;131072;store <- sext | store <- getelementptr | add <- add
+5;60960;load <- getelementptr | sub <- ashr | sub <- load | ashr <- sub | sub <- sub
+4;5120;sub <- trunc | mul <- sub | mul <- sub | trunc <- add
+5;5120;mul <- sub | mul <- sub | trunc <- add | add <- add | add <- shl
+4;701040;sub <- sub | sub <- ashr | getelementptr <- alloca | getelementptr <- add
+4;108;select <- select | select <- icmp | select <- select | select <- icmp
+4;255;getelementptr <- alloca | getelementptr <- shl | br <- icmp | trunc <- add
+3;40;and <- icmp | or <- and | or <- and
+5;5120;shl <- add | trunc <- add | sub <- trunc | mul <- sub | mul <- sub
+3;1;getelementptr <- alloca | mul <- sub | sdiv <- mul
+3;40;shl <- sdiv | add <- shl | select <- icmp
+5;40;store <- add | store <- getelementptr | add <- sdiv | icmp <- add | select <- icmp
+2;256;mul <- add | shl <- add
+3;108;select <- select | select <- icmp | select <- select
+5;40;store <- add | store <- getelementptr | getelementptr <- alloca | getelementptr <- alloca | getelementptr <- alloca
+2;1341160;sub <- sub | sub <- ashr
+3;701040;ashr <- sub | sub <- sub | sub <- ashr
+4;3108260;add <- load | add <- load | add <- load | add <- load
+4;640080;getelementptr <- getelementptr | load <- getelementptr | load <- getelementptr | sub <- ashr
+4;701040;ashr <- add | getelementptr <- alloca | getelementptr <- alloca | getelementptr <- add
+5;120;add <- add | add <- shl | zext <- add | getelementptr <- alloca | getelementptr <- alloca
+4;121;sub <- mul | mul <- sub | add <- add | zext <- add
+3;701040;add <- load | add <- load | getelementptr <- getelementptr
+2;20;br <- xor | xor <- xor
+5;169023;store <- getelementptr | trunc <- add | call <- trunc | call <- trunc | call <- select
+2;612;select <- icmp | br <- select
+2;1280200;add <- load | add <- add
+5;640080;load <- getelementptr | load <- getelementptr | getelementptr <- getelementptr | getelementptr <- getelementptr | load <- getelementptr
+4;40;icmp <- add | shl <- sdiv | add <- shl | select <- icmp
+2;200;icmp <- getelementptr | and <- icmp
+5;701040;add <- shl | getelementptr <- alloca | getelementptr <- alloca | getelementptr <- add | getelementptr <- getelementptr
+4;640080;sub <- ashr | sub <- load | ashr <- sub | ashr <- sub
+5;169023;call <- add | call <- add | call <- add | call <- add | add <- add
+4;640080;sub <- ashr | sub <- sub | sub <- ashr | getelementptr <- alloca
+5;80;mul <- add | ashr <- mul | add <- add | add <- add | zext <- add
+3;40;sub <- ashr | ashr <- sub | add <- ashr
+5;511;br <- icmp | br <- icmp | add <- add | mul <- add | mul <- add
+2;5145777;br <- icmp | add <- add
+5;175;getelementptr <- alloca | getelementptr <- zext | load <- getelementptr | add <- load | add <- mul
+1;1641750;store <- getelementptr
+3;2468180;or <- and | add <- or | add <- shl
+4;40;store <- getelementptr | icmp <- add | icmp <- add | shl <- sdiv
+5;169023;call <- add | call <- add | add <- add | icmp <- add | br <- icmp
+5;2468180;mul <- select | mul <- select | mul <- mul | mul <- select | and <- mul
+5;121;mul <- sub | add <- add | zext <- add | getelementptr <- alloca | getelementptr <- alloca
+5;640080;load <- getelementptr | sub <- ashr | sub <- load | sub <- ashr | sub <- load
+1;535;store <- add
+4;640080;add <- add | add <- load | ashr <- add | ashr <- add
+4;169023;call <- trunc | call <- select | call <- mul | call <- mul
+1;5790923;add <- shl
+3;39;xor <- xor | mul <- sub | sdiv <- mul
+3;701040;sub <- ashr | getelementptr <- alloca | getelementptr <- add
+3;200;icmp <- getelementptr | and <- icmp | and <- icmp
+2;131072;getelementptr <- add | store <- sext
+1;2626560;sub <- trunc
+2;40;br <- icmp | ashr <- add
+3;130560;br <- icmp | trunc <- add | switch <- trunc
+4;701040;and <- sub | and <- load | store <- and | store <- getelementptr
+5;175;load <- getelementptr | add <- load | add <- mul | store <- add | store <- getelementptr
+1;3809340;ashr <- sub
+1;4;icmp <- srem
+4;40;store <- getelementptr | icmp <- add | select <- icmp | select <- icmp
+1;2468180;select <- call
+5;15536;icmp <- add | br <- icmp | add <- add | icmp <- add | br <- icmp
+5;130560;trunc <- add | switch <- trunc | add <- add | mul <- add | mul <- add
+4;16;and <- call | icmp <- and | br <- icmp | call <- alloca
+3;2468180;or <- add | or <- and | add <- or
+5;2529140;load <- getelementptr | getelementptr <- getelementptr | load <- getelementptr | add <- load | add <- load
+4;175;getelementptr <- zext | load <- getelementptr | add <- load | add <- mul
+4;130560;switch <- trunc | add <- add | mul <- add | mul <- add
+5;4;icmp <- add | add <- add | add <- add | mul <- add | mul <- add
+2;169023;br <- icmp | store <- select
+5;20;add <- add | add <- add | br <- xor | xor <- xor | mul <- sub
+5;153260;icmp <- load | br <- icmp | trunc <- add | sub <- trunc | mul <- sub
+5;169023;call <- add | add <- add | icmp <- add | br <- icmp | add <- add
+4;27;add <- srem | add <- shl | zext <- add | getelementptr <- alloca
+5;640080;sub <- sub | sub <- ashr | getelementptr <- alloca | getelementptr <- add | getelementptr <- getelementptr
+1;864;select <- select
+2;256;getelementptr <- alloca | getelementptr <- shl
+5;640080;load <- getelementptr | and <- sub | and <- load | and <- sub | and <- load
+2;40;getelementptr <- alloca | icmp <- getelementptr
+4;120;add <- ashr | store <- add | store <- getelementptr | icmp <- add
+5;169023;call <- add | call <- add | call <- add | add <- mul | call <- mul
+5;640080;sub <- ashr | getelementptr <- alloca | getelementptr <- add | getelementptr <- getelementptr | load <- getelementptr
+4;27;mul <- sub | zext <- add | getelementptr <- alloca | getelementptr <- alloca
+2;393216;add <- mul | trunc <- add
+3;393216;add <- mul | add <- mul | trunc <- add
+2;2468180;icmp <- add | call <- add
+2;20;br <- icmp | call <- alloca
+5;40;or <- and | or <- and | icmp <- getelementptr | icmp <- getelementptr | icmp <- getelementptr
+4;27;sub <- mul | mul <- sub | add <- srem | add <- shl
+2;2621440;select <- icmp | select <- add
+4;5120;mul <- sub | trunc <- add | add <- add | add <- shl
+5;4;and <- call | icmp <- and | br <- icmp | srem <- call | add <- srem
+3;20;call <- add | call <- add | shl <- add
+2;2468180;sub <- add | ashr <- sub
+5;80;or <- or | or <- and | icmp <- getelementptr | icmp <- getelementptr | icmp <- getelementptr
+4;60960;br <- icmp | add <- add | add <- shl | getelementptr <- alloca
+4;2468180;call <- lshr | call <- select | shl <- call | add <- call
+1;25631035;load <- getelementptr
+2;120;add <- sdiv | icmp <- add
+4;256;mul <- add | mul <- add | shl <- add | icmp <- add
+2;701040;and <- load | store <- and
+2;2621440;load <- getelementptr | icmp <- select
+3;640080;and <- load | and <- sub | and <- load
+5;16;br <- xor | and <- call | icmp <- and | br <- icmp | call <- alloca
+2;640080;store <- getelementptr | store <- and
+4;131072;store <- sext | store <- getelementptr | add <- add | icmp <- add
+5;8;icmp <- add | add <- srem | icmp <- add | add <- srem | icmp <- add
+4;2621440;getelementptr <- add | load <- getelementptr | icmp <- select | icmp <- load
+3;40;and <- icmp | icmp <- getelementptr | icmp <- getelementptr
+4;60960;add <- add | add <- shl | getelementptr <- alloca | getelementptr <- alloca
+5;20;call <- add | call <- add | shl <- add | trunc <- add | sub <- trunc
+5;640080;and <- sub | and <- load | and <- sub | and <- load | store <- and
+4;2468180;add <- or | add <- shl | trunc <- add | sub <- trunc
+4;10160;br <- or | or <- add | add <- or | add <- shl
+4;40;load <- getelementptr | add <- load | add <- add | store <- add
+5;40;and <- icmp | and <- icmp | or <- and | or <- and | icmp <- getelementptr
+2;394020;add <- add | mul <- add
+3;255;br <- icmp | icmp <- add | add <- add
+5;40;select <- icmp | br <- select | add <- add | add <- shl | zext <- add
+4;160;select <- select | select <- icmp | br <- select | mul <- add
+4;2468180;load <- getelementptr | icmp <- load | br <- icmp | getelementptr <- add
+3;20;add <- add | br <- xor | and <- call
+3;640080;ashr <- sub | ashr <- sub | sub <- sub
+4;320;getelementptr <- zext | load <- getelementptr | add <- load | add <- ashr
+2;701040;ashr <- sub | sub <- sub
+3;80;icmp <- add | shl <- sdiv | add <- shl
+5;39;xor <- xor | mul <- sub | sdiv <- mul | add <- sdiv | mul <- add
+4;169023;call <- add | call <- add | add <- mul | call <- mul
+5;5120;mul <- sub | trunc <- add | add <- add | add <- shl | getelementptr <- add
+4;169023;call <- add | call <- mul | add <- mul | call <- mul
+1;39;xor <- xor
+5;20;add <- ashr | add <- add | add <- add | br <- xor | and <- call
+1;1341160;sub <- sub
+3;4;add <- srem | srem <- call | add <- srem
+5;255;getelementptr <- alloca | getelementptr <- shl | br <- icmp | trunc <- add | switch <- trunc
+1;2468180;shl <- call
+1;7404540;mul <- select
+4;60960;sub <- load | ashr <- sub | sub <- sub | sub <- ashr
+3;131072;xor <- or | sext <- xor | getelementptr <- getelementptr
+5;40;sdiv <- mul | add <- sdiv | mul <- add | sdiv <- mul | add <- sdiv
+2;2468180;add <- add | add <- ashr
+5;40;and <- icmp | and <- icmp | or <- or | or <- and | shl <- add
+5;131072;icmp <- trunc | or <- icmp | or <- or | xor <- or | sext <- xor
+3;535;getelementptr <- alloca | getelementptr <- zext | load <- getelementptr
+5;393216;add <- mul | add <- mul | trunc <- add | icmp <- trunc | or <- icmp
+4;2468180;call <- add | select <- icmp | select <- call | mul <- select
+3;40;add <- sdiv | mul <- add | sdiv <- mul
+5;40;icmp <- add | br <- icmp | ashr <- add | sub <- sub | sub <- ashr
+5;20;add <- add | add <- add | br <- xor | and <- call | icmp <- and
+4;2621440;icmp <- add | select <- icmp | select <- add | getelementptr <- add
+5;153260;br <- icmp | trunc <- add | sub <- trunc | mul <- sub | mul <- sub
+5;1;br <- icmp | add <- add | icmp <- add | br <- icmp | getelementptr <- alloca
+3;120;and <- icmp | or <- or | or <- and
+5;40;sub <- sub | sub <- ashr | ashr <- sub | add <- ashr | add <- add
+5;27;br <- select | sub <- mul | mul <- sub | zext <- add | getelementptr <- alloca
+3;320;load <- getelementptr | add <- load | add <- ashr
+4;80;ashr <- mul | add <- add | add <- add | zext <- add
+3;255;icmp <- add | br <- icmp | icmp <- add
+1;1341120;and <- sub
+5;20;add <- ashr | add <- add | add <- add | br <- xor | xor <- xor
+3;160;mul <- add | ashr <- mul | add <- add
+2;19;br <- icmp | xor <- xor
+1;9945252;getelementptr <- add
+2;130560;switch <- trunc | add <- add
+3;1014138;call <- add | call <- add | call <- add
+2;2468180;or <- add | or <- and
+4;169023;call <- mul | add <- mul | call <- mul | call <- add
+4;640080;load <- getelementptr | load <- getelementptr | getelementptr <- getelementptr | getelementptr <- getelementptr
+3;535;zext <- add | getelementptr <- alloca | getelementptr <- alloca
+4;1;getelementptr <- shl | br <- icmp | add <- add | mul <- add
+1;393216;icmp <- trunc
+3;20;add <- add | br <- xor | xor <- xor
+3;612;select <- select | select <- icmp | br <- select
+5;640;getelementptr <- alloca | getelementptr <- alloca | getelementptr <- alloca | getelementptr <- alloca | getelementptr <- alloca
+3;315;store <- getelementptr | select <- icmp | select <- icmp
+2;1;getelementptr <- alloca | mul <- sub
+4;2468180;ashr <- sub | add <- ashr | load <- getelementptr | ashr <- load
+5;2616320;br <- icmp | add <- add | add <- shl | getelementptr <- add | load <- getelementptr
+4;255;add <- add | icmp <- add | br <- icmp | icmp <- add
+5;2468180;call <- select | shl <- call | add <- call | or <- add | or <- and
+2;61;br <- select | select <- icmp
+2;16;icmp <- add | add <- srem
+3;640080;sub <- load | ashr <- sub | ashr <- sub
+5;40;getelementptr <- alloca | getelementptr <- alloca | getelementptr <- alloca | icmp <- getelementptr | icmp <- getelementptr
+5;32;add <- add | icmp <- add | br <- icmp | add <- add | add <- add
+3;640080;sub <- ashr | sub <- load | sub <- ashr
+5;4;icmp <- srem | icmp <- add | add <- srem | icmp <- add | add <- srem
+5;255;br <- icmp | add <- add | icmp <- add | br <- icmp | icmp <- add
+4;131072;trunc <- add | icmp <- trunc | or <- icmp | or <- icmp
+4;200;icmp <- getelementptr | icmp <- getelementptr | and <- icmp | and <- icmp
+4;2468180;add <- load | add <- load | sub <- add | sub <- add
+5;40;add <- load | add <- ashr | store <- add | store <- getelementptr | add <- sdiv
+1;16648432;getelementptr <- getelementptr
+3;36;shl <- add | add <- add | add <- shl
+5;2621440;mul <- sub | mul <- sub | add <- mul | add <- mul | icmp <- add
+4;40;icmp <- add | icmp <- add | shl <- add | select <- icmp
+5;2468180;ashr <- sub | add <- ashr | load <- getelementptr | ashr <- load | add <- add
+4;2468180;add <- call | or <- add | or <- and | add <- or
+2;2468180;mul <- mul | mul <- select
+1;20;and <- call
+2;144;select <- icmp | icmp <- mul
+4;255;br <- icmp | icmp <- add | add <- add | mul <- add
+2;1402080;load <- getelementptr | add <- add
+4;4;icmp <- and | br <- icmp | srem <- call | add <- srem
+4;320;add <- load | add <- ashr | store <- add | store <- getelementptr
+5;640080;load <- getelementptr | load <- getelementptr | and <- sub | and <- load | and <- sub
+4;60960;and <- load | store <- and | store <- getelementptr | add <- add
+5;40;add <- load | add <- add | store <- add | store <- getelementptr | select <- icmp
+4;19;icmp <- add | br <- icmp | xor <- xor | mul <- sub
+3;393216;trunc <- add | icmp <- trunc | or <- icmp
+5;40;icmp <- getelementptr | and <- icmp | and <- icmp | icmp <- getelementptr | icmp <- getelementptr
+4;169023;call <- add | call <- add | call <- add | add <- mul
+4;640080;load <- getelementptr | sub <- ashr | sub <- load | sub <- ashr
+5;27;select <- icmp | br <- select | sub <- mul | mul <- sub | add <- srem
+3;160;select <- icmp | br <- select | ashr <- add
+5;2621440;select <- add | getelementptr <- add | load <- getelementptr | icmp <- select | icmp <- load
+3;2692848;icmp <- add | br <- icmp | add <- add
+4;2621440;getelementptr <- add | load <- getelementptr | icmp <- load | br <- icmp
+5;2468180;add <- call | or <- add | or <- and | add <- or | add <- shl
+5;1;getelementptr <- shl | br <- icmp | add <- add | mul <- add | mul <- add
+3;130816;icmp <- add | br <- icmp | br <- icmp
+3;175;br <- select | sub <- mul | mul <- sub
+5;2621440;add <- mul | add <- mul | icmp <- add | select <- icmp | select <- add
+2;1403376;getelementptr <- alloca | getelementptr <- alloca
+5;640080;sub <- ashr | sub <- load | sub <- ashr | sub <- load | ashr <- sub
+1;612;br <- select
+3;169023;call <- mul | call <- mul | add <- mul
+3;153260;icmp <- load | br <- icmp | trunc <- add
+1;524288;or <- icmp
+4;60960;add <- add | add <- load | ashr <- add | getelementptr <- alloca
+5;120;icmp <- getelementptr | and <- icmp | and <- icmp | or <- or | or <- and
+2;169023;call <- trunc | call <- select
+5;61;br <- select | select <- icmp | select <- icmp | select <- select | select <- icmp
+4;640080;getelementptr <- getelementptr | load <- getelementptr | load <- getelementptr | and <- sub
+4;2468180;mul <- select | and <- mul | lshr <- mul | call <- lshr
+4;535;getelementptr <- alloca | getelementptr <- alloca | getelementptr <- zext | load <- getelementptr
+5;640080;getelementptr <- getelementptr | load <- getelementptr | load <- getelementptr | and <- sub | and <- load
+3;76;icmp <- add | icmp <- add | shl <- add
+3;262144;icmp <- trunc | or <- icmp | or <- or
+5;262144;add <- mul | trunc <- add | icmp <- trunc | or <- icmp | or <- or
+5;4;add <- srem | add <- srem | icmp <- add | add <- srem | icmp <- add
+3;640080;load <- getelementptr | load <- getelementptr | sub <- ashr
+4;4;add <- add | icmp <- add | br <- icmp | call <- alloca
+4;131072;or <- icmp | or <- icmp | add <- add | mul <- add
+4;169023;icmp <- load | br <- icmp | store <- select | store <- getelementptr
+2;640080;or <- add | add <- or
+4;640080;add <- load | add <- load | getelementptr <- getelementptr | getelementptr <- getelementptr
+4;131072;getelementptr <- add | store <- sext | store <- getelementptr | add <- add
+5;131072;add <- mul | trunc <- add | icmp <- trunc | or <- icmp | or <- icmp
+5;393216;add <- add | mul <- add | mul <- add | add <- mul | add <- mul
+4;12;add <- srem | icmp <- add | add <- srem | icmp <- add
+3;40;store <- getelementptr | icmp <- add | select <- icmp
+3;80;ashr <- mul | add <- add | add <- shl
+4;20;br <- xor | xor <- xor | mul <- sub | sdiv <- mul
+1;40;br <- xor
+5;2529140;getelementptr <- add | getelementptr <- getelementptr | load <- getelementptr | getelementptr <- getelementptr | load <- getelementptr
+2;169023;call <- trunc | call <- trunc
+5;147;add <- shl | zext <- add | getelementptr <- alloca | getelementptr <- alloca | getelementptr <- zext
+5;36;add <- add | mul <- add | mul <- add | icmp <- add | icmp <- add
+3;640080;ashr <- add | ashr <- add | getelementptr <- alloca
+5;2621440;sub <- trunc | mul <- sub | mul <- sub | add <- mul | add <- mul
+5;60960;br <- icmp | add <- add | add <- shl | getelementptr <- alloca | getelementptr <- alloca
+5;2468180;call <- add | select <- icmp | select <- call | mul <- select | mul <- select
+4;131072;xor <- or | sext <- xor | getelementptr <- getelementptr | getelementptr <- add
+4;175;select <- icmp | br <- select | sub <- mul | mul <- sub
+4;1280160;getelementptr <- add | getelementptr <- getelementptr | load <- getelementptr | load <- getelementptr
+3;5100;br <- icmp | shl <- add | trunc <- add
+2;338046;call <- mul | call <- add
+3;338046;add <- mul | call <- mul | call <- add
+4;40;shl <- sdiv | add <- shl | add <- sdiv | icmp <- add
+5;40;and <- shl | mul <- and | add <- mul | add <- sdiv | add <- sdiv
+4;2621440;mul <- sub | add <- mul | add <- mul | icmp <- add
+5;60960;sub <- ashr | getelementptr <- alloca | getelementptr <- add | load <- getelementptr | and <- sub
+5;40;add <- shl | add <- sdiv | icmp <- add | select <- icmp | select <- icmp
+3;320;add <- ashr | store <- add | store <- getelementptr
+1;131072;sext <- xor
+3;720;getelementptr <- alloca | getelementptr <- alloca | getelementptr <- alloca
+5;60960;ashr <- add | getelementptr <- alloca | getelementptr <- alloca | getelementptr <- add | load <- getelementptr
+5;27;sub <- mul | mul <- sub | zext <- add | getelementptr <- alloca | getelementptr <- alloca
+2;40;and <- icmp | or <- and
+5;255;getelementptr <- shl | br <- icmp | trunc <- add | switch <- trunc | add <- add
+5;40;store <- getelementptr | getelementptr <- alloca | getelementptr <- alloca | getelementptr <- alloca | getelementptr <- alloca
+5;200;icmp <- getelementptr | icmp <- getelementptr | icmp <- getelementptr | and <- icmp | and <- icmp
+4;2621440;mul <- sub | mul <- sub | add <- mul | add <- mul
+3;2468180;shl <- call | add <- call | or <- add
+5;144;select <- select | select <- icmp | icmp <- mul | select <- select | select <- icmp
+4;36;add <- add | add <- shl | select <- icmp | select <- icmp
+1;2468180;add <- call
+2;701040;sub <- load | ashr <- sub
+4;40;add <- mul | add <- sdiv | add <- sdiv | icmp <- add
+5;2452417;br <- icmp | add <- add | icmp <- add | br <- icmp | add <- add
+4;2616320;br <- icmp | add <- add | add <- shl | getelementptr <- add
+5;640080;getelementptr <- getelementptr | getelementptr <- getelementptr | load <- getelementptr | load <- getelementptr | add <- load
+3;131072;or <- icmp | add <- add | mul <- add
+4;1341120;getelementptr <- alloca | getelementptr <- alloca | getelementptr <- add | getelementptr <- getelementptr
+5;80;br <- select | mul <- add | ashr <- mul | add <- add | add <- add
+4;120;icmp <- add | select <- icmp | select <- icmp | select <- select
+5;80;ashr <- mul | add <- add | add <- add | zext <- add | getelementptr <- alloca
+3;36;icmp <- add | shl <- add | add <- add
+3;535;getelementptr <- zext | load <- getelementptr | add <- load
+2;393216;trunc <- add | icmp <- trunc
+3;393216;add <- mul | trunc <- add | icmp <- trunc
+3;36;add <- add | add <- shl | select <- icmp
+5;80;and <- icmp | or <- or | or <- and | icmp <- getelementptr | icmp <- getelementptr
+2;2468180;br <- icmp | getelementptr <- add
+4;40;and <- icmp | and <- icmp | icmp <- getelementptr | icmp <- getelementptr
+3;160;br <- select | mul <- add | ashr <- mul
+3;256;shl <- add | icmp <- add | getelementptr <- alloca
+5;640080;add <- add | add <- load | add <- add | add <- load | ashr <- add
+5;60960;load <- getelementptr | add <- add | add <- load | ashr <- add | getelementptr <- alloca
+3;40;udiv <- add | shl <- udiv | and <- shl
+4;393216;mul <- add | mul <- add | add <- mul | add <- mul
+3;320;add <- load | add <- ashr | store <- add
+3;1;call <- alloca | call <- alloca | icmp <- add
+5;131072;sext <- xor | getelementptr <- getelementptr | getelementptr <- add | store <- sext | store <- getelementptr
+5;40;and <- icmp | icmp <- getelementptr | icmp <- getelementptr | icmp <- getelementptr | icmp <- getelementptr
+5;256;shl <- add | icmp <- add | getelementptr <- alloca | getelementptr <- shl | br <- icmp
+3;701040;load <- getelementptr | sub <- ashr | sub <- load
+4;640080;ashr <- sub | ashr <- sub | sub <- sub | sub <- ashr
+2;316;add <- add | add <- add
+5;338046;call <- mul | call <- add | call <- add | call <- add | call <- add
+3;720;select <- icmp | select <- select | select <- icmp
+2;8;srem <- call | add <- srem
+4;60960;add <- load | ashr <- add | getelementptr <- alloca | getelementptr <- alloca
+3;169023;call <- add | add <- add | icmp <- add
+5;120;icmp <- getelementptr | icmp <- getelementptr | and <- icmp | and <- icmp | or <- or
+5;4;add <- srem | icmp <- add | add <- srem | icmp <- add | icmp <- srem
+2;4;br <- icmp | srem <- call
+4;20;add <- add | add <- add | br <- xor | and <- call
+1;2468180;lshr <- mul
+5;40;add <- sdiv | mul <- add | sdiv <- mul | add <- sdiv | udiv <- add
+2;2468180;add <- ashr | load <- getelementptr
+3;2468180;ashr <- sub | add <- ashr | load <- getelementptr
+3;640080;store <- and | store <- getelementptr | store <- and
+5;1;br <- icmp | getelementptr <- alloca | getelementptr <- alloca | mul <- sub | sdiv <- mul
+2;131072;getelementptr <- getelementptr | getelementptr <- add
+3;338046;call <- mul | add <- mul | call <- add
+5;80;and <- icmp | and <- icmp | or <- or | or <- and | icmp <- getelementptr
+5;40;shl <- sdiv | add <- shl | add <- sdiv | icmp <- add | select <- icmp
+5;338046;call <- mul | add <- mul | call <- add | call <- mul | add <- mul
+5;20;call <- alloca | call <- alloca | call <- alloca | call <- add | call <- add
+4;40;mul <- sub | sdiv <- mul | add <- sdiv | mul <- add
+3;40;ashr <- add | sub <- sub | sub <- ashr
+4;2468180;call <- select | shl <- call | add <- call | or <- add
+1;262264;or <- or
+2;175;add <- load | add <- mul
+4;36;mul <- add | mul <- add | icmp <- add | icmp <- add
+2;1352204;call <- add | call <- add
+5;121920;add <- load | getelementptr <- getelementptr | load <- getelementptr | add <- add | add <- load
+1;535;zext <- add
+5;80;ashr <- mul | add <- add | add <- shl | zext <- add | getelementptr <- alloca
+5;169023;call <- trunc | call <- trunc | call <- select | call <- mul | call <- mul
+4;60960;load <- getelementptr | add <- add | add <- load | ashr <- add
+5;4;br <- xor | and <- call | icmp <- and | br <- icmp | srem <- call
+3;40;br <- icmp | ashr <- add | sub <- sub
+5;20;add <- mul | store <- add | store <- getelementptr | add <- add | icmp <- add
+3;130305;br <- icmp | br <- icmp | trunc <- add
+2;3469124;add <- add | icmp <- add
+3;2468180;mul <- mul | mul <- select | and <- mul
+4;640080;and <- load | store <- and | store <- getelementptr | store <- and
+5;2468180;sub <- add | ashr <- sub | add <- ashr | load <- getelementptr | ashr <- load
+4;1;call <- alloca | icmp <- add | add <- add | mul <- add
+3;61;br <- select | select <- icmp | select <- icmp
+3;2621440;mul <- sub | add <- mul | add <- mul
+5;1;add <- add | icmp <- add | br <- icmp | getelementptr <- alloca | getelementptr <- alloca
+3;2560320;getelementptr <- getelementptr | getelementptr <- getelementptr | load <- getelementptr
+5;2621440;add <- shl | getelementptr <- add | load <- getelementptr | icmp <- load | br <- icmp
+4;40;getelementptr <- alloca | getelementptr <- alloca | getelementptr <- alloca | icmp <- getelementptr
+3;40;getelementptr <- alloca | icmp <- getelementptr | icmp <- getelementptr
+5;20;store <- add | store <- getelementptr | add <- add | icmp <- add | br <- icmp
+5;40;getelementptr <- alloca | getelementptr <- alloca | icmp <- getelementptr | icmp <- getelementptr | icmp <- getelementptr
+5;640080;getelementptr <- add | getelementptr <- getelementptr | load <- getelementptr | load <- getelementptr | and <- sub
+5;108;select <- icmp | select <- select | select <- icmp | select <- select | select <- icmp
+5;1;icmp <- add | getelementptr <- alloca | getelementptr <- shl | br <- icmp | add <- add
+3;640080;store <- getelementptr | store <- and | store <- getelementptr
+4;20;add <- add | br <- xor | xor <- xor | mul <- sub
+4;2529140;getelementptr <- add | getelementptr <- getelementptr | load <- getelementptr | getelementptr <- getelementptr
+4;4;icmp <- srem | icmp <- add | add <- srem | icmp <- add
+4;61;select <- icmp | br <- select | select <- icmp | select <- icmp
+3;15220;icmp <- add | br <- icmp | shl <- add
+4;512;mul <- add | add <- add | mul <- add | mul <- add
+3;20;br <- icmp | call <- alloca | call <- alloca
+1;535;getelementptr <- zext
+2;2468180;add <- load | sub <- add
+5;4;add <- srem | icmp <- add | add <- srem | icmp <- add | add <- add
+4;40;shl <- udiv | and <- shl | mul <- and | add <- mul
+5;20;call <- alloca | call <- add | call <- add | shl <- add | trunc <- add
+3;2468180;add <- load | sub <- add | sub <- add
+3;629920;icmp <- add | br <- icmp | or <- add
+3;169023;store <- select | store <- getelementptr | trunc <- add
+4;2468180;sub <- add | sub <- add | ashr <- sub | add <- ashr
+2;535;zext <- add | getelementptr <- alloca
+3;4;add <- srem | add <- srem | icmp <- add
+3;40;sdiv <- mul | add <- sdiv | udiv <- add
+3;256;mul <- add | mul <- add | shl <- add
+4;393216;add <- mul | add <- mul | trunc <- add | icmp <- trunc
+5;16;select <- select | select <- icmp | br <- select | add <- add | icmp <- add
+4;169023;br <- icmp | store <- select | store <- getelementptr | trunc <- add
+3;2468180;br <- icmp | getelementptr <- add | getelementptr <- getelementptr
+4;40;add <- ashr | store <- add | store <- getelementptr | getelementptr <- alloca
+5;60960;sub <- sub | sub <- ashr | getelementptr <- alloca | getelementptr <- add | load <- getelementptr
+3;36;add <- add | add <- add | mul <- add
+2;13957040;getelementptr <- getelementptr | load <- getelementptr
+5;629920;store <- getelementptr | add <- add | icmp <- add | br <- icmp | or <- add
+5;4;icmp <- add | icmp <- srem | icmp <- add | add <- srem | icmp <- add
+3;40;sdiv <- mul | add <- sdiv | mul <- add
+3;40;add <- sdiv | udiv <- add | shl <- udiv
+4;393216;add <- mul | trunc <- add | icmp <- trunc | or <- icmp
+4;2467953;br <- icmp | add <- add | icmp <- add | br <- icmp
+4;121;br <- select | sub <- mul | mul <- sub | add <- add
+4;2468180;sub <- add | ashr <- sub | add <- ashr | load <- getelementptr
+4;169023;store <- getelementptr | trunc <- add | call <- trunc | call <- trunc
+4;120;icmp <- getelementptr | and <- icmp | and <- icmp | or <- or
+5;40;ashr <- add | sub <- sub | sub <- ashr | ashr <- sub | add <- ashr
+4;2621440;load <- getelementptr | icmp <- select | icmp <- load | br <- icmp
+3;1;icmp <- add | br <- icmp | getelementptr <- alloca
+5;640080;add <- load | add <- load | add <- load | getelementptr <- getelementptr | getelementptr <- getelementptr
+5;169023;br <- icmp | store <- select | store <- getelementptr | trunc <- add | call <- trunc
+4;2468180;add <- load | add <- load | add <- load | sub <- add
+3;40;mul <- sub | sdiv <- mul | add <- sdiv
+4;40;sdiv <- mul | add <- sdiv | mul <- add | sdiv <- mul
+2;2621440;load <- getelementptr | icmp <- load
+2;131072;or <- or | xor <- or
+2;393216;mul <- add | add <- mul
+4;612;select <- icmp | select <- icmp | select <- select | select <- icmp
+2;2468180;add <- shl | trunc <- add
+4;131072;or <- or | xor <- or | sext <- xor | getelementptr <- getelementptr
+5;20;br <- icmp | call <- alloca | call <- alloca | call <- alloca | call <- alloca
+5;15220;br <- icmp | add <- add | icmp <- add | br <- icmp | shl <- add
+5;2468180;load <- getelementptr | icmp <- load | br <- icmp | getelementptr <- add | getelementptr <- getelementptr
+3;169023;call <- add | add <- mul | call <- mul
+5;4;add <- srem | icmp <- add | add <- srem | icmp <- add | add <- srem
+5;40;getelementptr <- zext | load <- getelementptr | add <- load | add <- add | store <- add
+2;76;add <- shl | select <- icmp
+3;3169220;load <- getelementptr | add <- load | add <- load
+3;2626560;trunc <- add | sub <- trunc | mul <- sub
+3;144;icmp <- mul | select <- select | select <- icmp
+5;131072;getelementptr <- add | store <- sext | store <- getelementptr | add <- add | icmp <- add
+4;2468180;select <- call | mul <- select | mul <- select | mul <- mul
+1;2468180;call <- lshr
+5;640080;getelementptr <- add | getelementptr <- getelementptr | getelementptr <- getelementptr | load <- getelementptr | load <- getelementptr
+2;640080;sub <- load | sub <- ashr
+4;175;select <- select | select <- icmp | br <- select | sub <- mul
+4;256;icmp <- add | add <- add | mul <- add | mul <- add
+5;256;add <- add | mul <- add | mul <- add | shl <- add | icmp <- add
+3;60960;getelementptr <- add | load <- getelementptr | sub <- ashr
+2;2560320;getelementptr <- getelementptr | getelementptr <- getelementptr
+5;40;add <- load | add <- ashr | store <- add | store <- getelementptr | getelementptr <- alloca
+4;131072;icmp <- trunc | or <- icmp | or <- or | xor <- or

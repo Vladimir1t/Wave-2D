@@ -1,5 +1,11 @@
 // Двумерное волновое уравнение: "бассейн" с островами, дождём и
 // пульсирующим источником, который движется по эллипсу (эффект Доплера).
+//
+//   d^2 h / dt^2 = c^2 * (d^2 h / dx^2 + d^2 h / dy^2) - затухание
+//
+// Явная конечно-разностная схема на двух слоях по времени (c^2 = 1/2,
+// условие Куранта выполнено). Вся арифметика целочисленная (только int),
+// память - только массивы на стеке, единственный внешний интерфейс - sim.h.
 
 #include "sim.h"
 
@@ -54,7 +60,7 @@ void initPool(int *water) {
     }
 }
 
-// Возмущение - "капля" с параболическим профилем.
+// Возмущение-"капля" с параболическим профилем.
 void addDrop(int *h, int cx, int cy, int r, int power) {
   for (int dy = -r; dy <= r; dy++)
     for (int dx = -r; dx <= r; dx++) {
@@ -81,13 +87,11 @@ void waveStep(int *cur, int *prev, int *water) {
 
 // Цвет воды: освещение сверху-слева по наклону поверхности + высота.
 int waterColor(int *h, int i) {
-
   int slope = (h[i - 1] - h[i + 1]) + (h[i - W] - h[i + W]);
   int s = clamp255(90 + (slope >> 2) + (h[i] >> 4));
   int r = (s * s * s) >> 16;
   int g = clamp255(30 + ((s * s) >> 8));
   int b = clamp255(80 + s);
-
   return 0xFF000000 | (r << 16) | (g << 8) | b;
 }
 
@@ -99,16 +103,12 @@ void putCell(int x, int y, int argb) {
 
 // Перерисовываются только клетки, цвет которых изменился с прошлого кадра.
 void drawFrame(int *h, int *water, int *shown, int bx, int by) {
-
   for (int y = 0; y < H; y++)
     for (int x = 0; x < W; x++) {
-
       int i = y * W + x;
       int color = water[i] ? waterColor(h, i) : LAND_COLOR;
-
       if (isInsideCircle(x, y, bx, by, 2))
         color = BOAT_COLOR;
-
       if (color != shown[i]) {
         shown[i] = color;
         putCell(x, y, color);
@@ -117,25 +117,20 @@ void drawFrame(int *h, int *water, int *shown, int bx, int by) {
 }
 
 void app(void) {
-
   int bufA[N] = {0};
   int bufB[N] = {0};
   int water[N] = {0};
   int shown[N] = {0};
   int *cur = bufA;
   int *prev = bufB;
-
   initPool(water);
 
-  int ox = FIX_ONE;
-  // точка на единичной окружности (алгоритм Минского)
+  int ox = FIX_ONE; // точка на единичной окружности (алгоритм Минского)
   int oy = 0;
   int bx = W / 2 + ORBIT_RX;
   int by = H / 2;
   int step = 0;
-
   while (1) {
-
     for (int s = 0; s < STEPS_PER_FRAME; s++) {
       bx = W / 2 + ox * ORBIT_RX / FIX_ONE;
       by = H / 2 + oy * ORBIT_RY / FIX_ONE;
@@ -151,7 +146,6 @@ void app(void) {
       oy += ox >> ORBIT_SHIFT;
       step++;
     }
-
     if (simRand() % RAIN_CHANCE == 0)
       addDrop(cur, 1 + simRand() % (W - 2), 1 + simRand() % (H - 2),
               RAIN_RADIUS, RAIN_POWER);
