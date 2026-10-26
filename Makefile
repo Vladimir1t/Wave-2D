@@ -3,6 +3,7 @@ CXX = clang++
 # Уровень оптимизации app.c (можно -Os)
 OPT ?= -O2
 LLVM_INC ?= $(shell llvm-config --includedir)
+LLVM_LIBS ?= $(shell llvm-config --ldflags --libs)
 # Сколько кадров анализировать в make stats
 FRAMES ?= 20
 
@@ -61,7 +62,41 @@ stats: build/app-trace-headless build/app-trace-phi-headless
 	TRACE_OUT=stats/phi SIM_FRAMES=$(FRAMES) TRACE_LIMIT=100000000000 ./build/app-trace-phi-headless
 	python3 pass/report.py stats/basic_ngrams.csv stats/phi_ngrams.csv --top 20 -o stats/STATS.md
 
-clean:
-	rm -rf app app-trace app-trace-phi start.ll sim.ll full.bc build
+# ---------------- Задание 3: IR-генератор + ExecutionEngine ----------------
 
-.PHONY: all run stats clean
+IRGEN_SRC = irgen/app_ir_run.cpp irgen/app_ir_gen.cpp irgen/app_ir_gen.h
+
+# Транслятор .ll -> C++ код на IRBuilder
+build/ir2cpp: irgen/ir2cpp.cpp
+	mkdir -p build
+	$(CXX) -std=c++17 -O1 -I$(LLVM_INC) $< $(LLVM_LIBS) -o $@
+
+# Перегенерировать irgen/app_ir_gen.cpp из app-opt.ll (после правок app.c)
+irgen: build/ir2cpp app-opt.ll
+	./build/ir2cpp app-opt.ll app > irgen/app_ir_gen.cpp
+
+# IR-генератор с SDL-окном: ./app_ir_gen (интерпретатор) или ./app_ir_gen --jit
+app_ir_gen: $(IRGEN_SRC) sim.c sim.h
+	mkdir -p build
+	$(CC) -O2 -c sim.c -o build/sim.o
+	$(CXX) -std=c++17 -O1 -I$(LLVM_INC) irgen/app_ir_run.cpp irgen/app_ir_gen.cpp \
+		build/sim.o $(LLVM_LIBS) -lSDL2 -o $@
+
+# Без окна (10 кадров) - для проверки
+build/app_ir_gen_headless: $(IRGEN_SRC) pass/sim_headless.c sim.h
+	mkdir -p build
+	$(CC) -O2 -c pass/sim_headless.c -o build/sim_headless.o
+	$(CXX) -std=c++17 -O1 -I$(LLVM_INC) irgen/app_ir_run.cpp irgen/app_ir_gen.cpp \
+		build/sim_headless.o $(LLVM_LIBS) -o $@
+
+# Построенный генератором IR должен совпадать с функциями из app-opt.ll
+irgen-check: build/app_ir_gen_headless
+	./build/app_ir_gen_headless --jit --emit build/app-gen.ll
+	./build/app_ir_gen_headless --interp
+	llvm-extract --func=app --func=drawFrame --func=putCell app-opt.ll -S -o build/app-orig.ll
+	llvm-diff build/app-orig.ll build/app-gen.ll && echo "llvm-diff: no differences"
+
+clean:
+	rm -rf app app-trace app-trace-phi app_ir_gen start.ll sim.ll full.bc build
+
+.PHONY: all run stats irgen irgen-check clean
