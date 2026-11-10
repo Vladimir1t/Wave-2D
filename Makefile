@@ -100,3 +100,19 @@ clean:
 	rm -rf app app-trace app-trace-phi app_ir_gen start.ll sim.ll full.bc build
 
 .PHONY: all run stats irgen irgen-check clean
+
+# ---------------- Assignment 4: custom Wave32 ASM + ASM2IR ----------------
+
+asm4:
+	$(MAKE) -C asm2ir all
+
+asm4-test:
+	$(MAKE) -C asm2ir test
+
+asm4-emit:
+	$(MAKE) -C asm2ir emit
+
+asm4-sdl:
+	$(MAKE) -C asm2ir asm2ir-sdl
+
+.PHONY: asm4 asm4-test asm4-emit asm4-sdl
